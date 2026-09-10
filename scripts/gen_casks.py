@@ -203,7 +203,7 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
     elif set(picked) == {"intel"}:
         deps.append("  depends_on arch: :x86_64")
     if minos:
-        deps.append(f'  depends_on macos: ">= :{minos}"')
+        deps.append(f"  depends_on macos: :{minos}")
     if deps:
         out += deps + [""]
 

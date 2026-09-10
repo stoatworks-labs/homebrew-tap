@@ -22,6 +22,8 @@ cask "leqtion" do
     strategy :github_latest
   end
 
+  depends_on macos: :catalina
+
   app "LEQtion.app"
 
   zap trash: [

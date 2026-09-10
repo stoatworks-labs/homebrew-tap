@@ -5,13 +5,8 @@ upgradable with `brew`.
 
 ```bash
 brew tap stoatworks-labs/tap
+brew trust --tap stoatworks-labs/tap
 brew install --cask pdf-presenter
-```
-
-Or in one line, without tapping first:
-
-```bash
-brew install --cask stoatworks-labs/tap/pdf-presenter
 ```
 
 From then on `brew upgrade` picks up new releases along with everything else on
@@ -19,13 +14,28 @@ the machine — which is the whole point of this repo. Nothing here phones home,
 and nothing is bundled or repackaged: every cask points straight at the disk
 image on the project's own GitHub release.
 
+### That middle line
+
+Homebrew 6 will not load a cask from a tap it has not been told to trust, and
+refuses with `Refusing to load cask ... from untrusted tap` until you say so.
+That is a good default — a tap is code that runs on your machine — so the
+command is spelled out here rather than hidden. Trust one cask instead of the
+whole tap if you would rather:
+
+```bash
+brew trust --cask stoatworks-labs/tap/pdf-presenter
+```
+
+On Homebrew 5 and earlier there is no `brew trust`; the tap and install lines
+work on their own.
+
 ## Why a tap, and not homebrew-cask
 
 Homebrew's own cask repository asks that software be notable before it is
 accepted — 75 stars, or 30 forks, or 30 watchers. These are working tools for a
 small trade and none of them clear that bar, so they live here instead. A tap is
-a first-class Homebrew citizen; the only difference you will notice is the one
-`brew tap` above.
+a first-class Homebrew citizen: once the two lines above have been run, these
+casks behave exactly like any other, `brew upgrade` included.
 
 ## Gatekeeper
 

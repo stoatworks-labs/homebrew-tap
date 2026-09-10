@@ -2,7 +2,7 @@
   "animatem": {
     "app": "animATEM.app",
     "bundleid": "com.allansargeant.animatem",
-    "minos": null,
+    "minos": "13.0",
     "selected": [
       "https://github.com/stoatworks-labs/animATEM/releases/download/v0.2.1/animATEM-0.2.1-arm64.dmg",
       "https://github.com/stoatworks-labs/animATEM/releases/download/v0.2.1/animATEM-0.2.1.dmg"
@@ -11,7 +11,7 @@
   "aquilon-vpu-map": {
     "app": "Aquilon VPU Map.app",
     "bundleid": "com.stoatworkslabs.aquilon-vpu-map",
-    "minos": null,
+    "minos": "10.13",
     "selected": [
       "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.2.1/Aquilon.VPU.Map_1.2.1_aarch64.dmg",
       "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.2.1/Aquilon.VPU.Map_1.2.1_x64.dmg"
@@ -28,7 +28,7 @@
   "atem-overseer": {
     "app": "Atem Overseer.app",
     "bundleid": "com.allansargeant.atem-overseer",
-    "minos": null,
+    "minos": "11.0",
     "selected": [
       "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.3/atem-overseer-0.3.3-macos-aarch64.dmg",
       "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.3/atem-overseer-0.3.3-macos-x86_64.dmg"
@@ -37,7 +37,7 @@
   "atem-scopes": {
     "app": "atem-scopes.app",
     "bundleid": "com.stoatworks.atem-scopes",
-    "minos": null,
+    "minos": "13.0",
     "selected": [
       "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.1/atem-scopes-0.2.1-arm64.dmg",
       "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.1/atem-scopes-0.2.1.dmg"
@@ -46,7 +46,7 @@
   "av-launcher": {
     "app": "AV Launcher.app",
     "bundleid": "com.allansargeant.av-launcher",
-    "minos": null,
+    "minos": "10.13",
     "selected": [
       "https://github.com/stoatworks-labs/av-launcher/releases/download/v0.2.1/av-launcher-0.2.1-macos-aarch64.dmg",
       "https://github.com/stoatworks-labs/av-launcher/releases/download/v0.2.1/av-launcher-0.2.1-macos-x86_64.dmg"
@@ -55,7 +55,7 @@
   "blackmatrix": {
     "app": "BlackMatrix.app",
     "bundleid": "com.allansargeant.blackmatrix",
-    "minos": null,
+    "minos": "11.0",
     "selected": [
       "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.0/BlackMatrix_0.3.0_aarch64.dmg",
       "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.0/BlackMatrix_0.3.0_x64.dmg"
@@ -64,7 +64,7 @@
   "flock": {
     "app": "flock.app",
     "bundleid": "com.allansargeant.flock",
-    "minos": null,
+    "minos": "10.13",
     "selected": [
       "https://github.com/stoatworks-labs/flock/releases/download/v0.2.3/flock-0.2.3-macos-app.dmg"
     ]
@@ -72,7 +72,7 @@
   "frame-ferret": {
     "app": "Frame Ferret.app",
     "bundleid": "com.allansargeant.frame-ferret",
-    "minos": null,
+    "minos": "11.0",
     "selected": [
       "https://github.com/stoatworks-labs/frame-ferret/releases/download/v0.2.1/Frame.Ferret_0.2.1_aarch64.dmg"
     ]
@@ -80,7 +80,7 @@
   "leqtion": {
     "app": "LEQtion.app",
     "bundleid": "com.allansargeant.leqtion",
-    "minos": null,
+    "minos": "10.15",
     "selected": [
       "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.1/leqtion-0.1.1-macos-aarch64.dmg",
       "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.1/leqtion-0.1.1-macos-x86_64.dmg"
@@ -89,7 +89,7 @@
   "livepremier-plus": {
     "app": "LivePremier Plus.app",
     "bundleid": "com.allansargeant.livepremier-plus",
-    "minos": null,
+    "minos": "11.0",
     "selected": [
       "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.4.1/livepremier-plus-0.4.1-macos-aarch64.dmg",
       "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.4.1/livepremier-plus-0.4.1-macos-x86_64.dmg"
@@ -98,7 +98,7 @@
   "micwizard": {
     "app": "MicWizard.app",
     "bundleid": "com.allansargeant.micwizard",
-    "minos": null,
+    "minos": "13.0",
     "selected": [
       "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.1/micwizard-0.2.1-arm64.dmg",
       "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.1/micwizard-0.2.1-x64.dmg"
@@ -115,7 +115,7 @@
   "presentation-commander-client": {
     "app": "Presentation Commander Client.app",
     "bundleid": "com.presentationcommander.client",
-    "minos": null,
+    "minos": "13.0",
     "selected": [
       "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.2.2/presentation-commander-client-1.2.2-arm64.dmg",
       "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.2.2/presentation-commander-client-1.2.2-x64.dmg"
@@ -124,7 +124,7 @@
   "presentation-commander-server": {
     "app": "Presentation Commander Server.app",
     "bundleid": "com.presentationcommander.server",
-    "minos": null,
+    "minos": "13.0",
     "selected": [
       "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v1.1.2/presentation-commander-server-1.1.2-arm64.dmg",
       "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v1.1.2/presentation-commander-server-1.1.2-x64.dmg"
@@ -158,7 +158,7 @@
   "simplevis": {
     "app": "simpleVIS.app",
     "bundleid": "com.allansargeant.simplevis",
-    "minos": null,
+    "minos": "10.13",
     "selected": [
       "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.1/simpleVIS_0.4.1_aarch64.dmg",
       "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.1/simpleVIS_0.4.1_x64.dmg"
@@ -175,7 +175,7 @@
   "weblinked": {
     "app": "WebLinked.app",
     "bundleid": "works.stoat.weblinked",
-    "minos": null,
+    "minos": "12.0",
     "selected": [
       "https://github.com/stoatworks-labs/weblinked/releases/download/v1.0.3/weblinked-engine-1.0.3-macos-arm64.dmg"
     ]

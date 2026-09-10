@@ -22,6 +22,8 @@ cask "presentation-commander-client" do
     strategy :github_latest
   end
 
+  depends_on macos: :ventura
+
   app "Presentation Commander Client.app"
 
   zap trash: [

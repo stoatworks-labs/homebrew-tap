@@ -22,6 +22,8 @@ cask "atem-overseer" do
     strategy :github_latest
   end
 
+  depends_on macos: :big_sur
+
   app "Atem Overseer.app"
 
   zap trash: [

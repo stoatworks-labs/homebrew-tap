@@ -22,6 +22,8 @@ cask "micwizard" do
     strategy :github_latest
   end
 
+  depends_on macos: :ventura
+
   app "MicWizard.app"
 
   zap trash: [
