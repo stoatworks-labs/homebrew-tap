@@ -3,14 +3,12 @@ cask "blackmatrix" do
 
   on_arm do
     sha256 "ed9aae6d53d817a047b441fcd753118282c1db5ab729cc4a31b5fe2b1e2fea81"
-    url "https://github.com/stoatworks-labs/blackmatrix/releases/download/v#{version}/BlackMatrix_#{version}_aarch64.dmg",
-        verified: "github.com/stoatworks-labs/blackmatrix/"
+    url "https://github.com/stoatworks-labs/blackmatrix/releases/download/v#{version}/BlackMatrix_#{version}_aarch64.dmg"
   end
 
   on_intel do
     sha256 "44e57edd48b85bb7e4a3eebdc6d06ce89d9fc7d48e1c0aa13c93a15078397ef3"
-    url "https://github.com/stoatworks-labs/blackmatrix/releases/download/v#{version}/BlackMatrix_#{version}_x64.dmg",
-        verified: "github.com/stoatworks-labs/blackmatrix/"
+    url "https://github.com/stoatworks-labs/blackmatrix/releases/download/v#{version}/BlackMatrix_#{version}_x64.dmg"
   end
 
   name "BlackMatrix"

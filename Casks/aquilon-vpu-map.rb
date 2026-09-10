@@ -3,14 +3,12 @@ cask "aquilon-vpu-map" do
 
   on_arm do
     sha256 "b6db8a135943f13d19fb1045795d639a9d49cc328c11b71783bc8ef2db368393"
-    url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_aarch64.dmg",
-        verified: "github.com/stoatworks-labs/aquilon-vpu-map/"
+    url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_aarch64.dmg"
   end
 
   on_intel do
     sha256 "1e5b4a4a238219cfa7de9476ec478a907e2b78557ab70fb7e391443d79ba2049"
-    url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_x64.dmg",
-        verified: "github.com/stoatworks-labs/aquilon-vpu-map/"
+    url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_x64.dmg"
   end
 
   name "Aquilon VPU Map"

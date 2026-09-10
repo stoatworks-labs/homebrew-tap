@@ -3,14 +3,12 @@ cask "atem-overseer" do
 
   on_arm do
     sha256 "849bd2a2803db9052663e174443978baca4bc3bc99b1f602a74d821a8a3e209e"
-    url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-aarch64.dmg",
-        verified: "github.com/stoatworks-labs/atem-overseer/"
+    url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-aarch64.dmg"
   end
 
   on_intel do
     sha256 "b2d4a043b8291e582db143329235bb3545ab3a149a87b088d3677ace883a5fd8"
-    url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-x86_64.dmg",
-        verified: "github.com/stoatworks-labs/atem-overseer/"
+    url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-x86_64.dmg"
   end
 
   name "ATEM Overseer"

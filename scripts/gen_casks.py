@@ -156,8 +156,6 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
     version = (entry.get("version") or "").lstrip("v")
     homepage = (entry.get("guide") or "").removesuffix("/guide")
     homepage = (homepage + "/") if homepage else f"https://stoatworks-labs.com/software/{slug}/"
-    verified = f"github.com/stoatworks-labs/{repo}/"
-
     def pair(a, indent):
         """sha256 + url for one asset, or None if the release has no digest."""
         sha = digests.get(a["url"].rsplit("/", 1)[-1])
@@ -165,8 +163,7 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
             return None
         pad = " " * indent
         return (f'{pad}sha256 {rb_str(sha)}\n'
-                f'{pad}url {rb_str(templated(a["url"], version))},\n'
-                f'{pad}{" " * 4}verified: {rb_str(verified)}')
+                f'{pad}url {rb_str(templated(a["url"], version))}')
 
     single = picked.get("universal") or (picked["arm"] if set(picked) == {"arm"} else None) \
         or (picked["intel"] if set(picked) == {"intel"} else None)

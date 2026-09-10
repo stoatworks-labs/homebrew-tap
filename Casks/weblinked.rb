@@ -1,8 +1,7 @@
 cask "weblinked" do
   version "1.0.3"
   sha256 "91c3904b01752c4d64e841520c2a78fbbd68337d0576aa1c7e197c7fe2db02a4"
-  url "https://github.com/stoatworks-labs/weblinked/releases/download/v#{version}/weblinked-engine-#{version}-macos-arm64.dmg",
-      verified: "github.com/stoatworks-labs/weblinked/"
+  url "https://github.com/stoatworks-labs/weblinked/releases/download/v#{version}/weblinked-engine-#{version}-macos-arm64.dmg"
 
   name "WebLinked"
   desc "URL in, SDI, NDI and a screen out"

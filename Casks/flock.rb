@@ -1,8 +1,7 @@
 cask "flock" do
   version "0.2.3"
   sha256 "cfaa7474621327a9013f249b0f70904e638dc913fe2738fd7c6260f15792524d"
-  url "https://github.com/stoatworks-labs/flock/releases/download/v#{version}/flock-#{version}-macos-app.dmg",
-      verified: "github.com/stoatworks-labs/flock/"
+  url "https://github.com/stoatworks-labs/flock/releases/download/v#{version}/flock-#{version}-macos-app.dmg"
 
   name "Flock"
   desc "BirdDog decoder fleet UI"
