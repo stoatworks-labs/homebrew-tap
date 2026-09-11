@@ -1,15 +1,7 @@
 cask "livepremier-plus" do
-  version "0.4.1"
-
-  on_arm do
-    sha256 "d3626333d62c0c4240eb3c6e9a93d72f3c1105c1c275eb15c0fe214243b901b9"
-    url "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v#{version}/livepremier-plus-#{version}-macos-aarch64.dmg"
-  end
-
-  on_intel do
-    sha256 "f707eaf4bd644cff6cfd5d768245184fd4e118082d1d4977fd6f60d158b2a2f0"
-    url "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v#{version}/livepremier-plus-#{version}-macos-x86_64.dmg"
-  end
+  version "0.5.0"
+  sha256 "ed8ec1bcc69fc565001c674e63aacbb375ddf13313c1cb37ad04632dcb251c0e"
+  url "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v#{version}/livepremier-plus-#{version}-macos-universal.dmg"
 
   name "LivePremier Plus"
   desc "Your switcher's own interface, with the missing panels"
