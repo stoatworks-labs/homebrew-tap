@@ -82,8 +82,8 @@
     "bundleid": "com.allansargeant.leqtion",
     "minos": "10.15",
     "selected": [
-      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.1/leqtion-0.1.1-macos-aarch64.dmg",
-      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.1/leqtion-0.1.1-macos-x86_64.dmg"
+      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.2/leqtion-0.1.2-macos-aarch64.dmg",
+      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.2/leqtion-0.1.2-macos-x86_64.dmg"
     ]
   },
   "livepremier-plus": {
