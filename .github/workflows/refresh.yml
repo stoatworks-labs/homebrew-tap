@@ -33,7 +33,10 @@ jobs:
 
       - name: Audit whatever changed
         run: |
-          changed=$(git diff --name-only -- Casks | sed 's|Casks/||;s|\.rb$||')
+          # Modified AND new casks: a cask written for the first time is untracked,
+          # which `git diff` does not list — flock v0.2.4 was regenerated under a
+          # token the audit refuses and was committed unaudited that way.
+          changed=$( { git diff --name-only -- Casks; git ls-files --others --exclude-standard -- Casks; } | sed 's|Casks/||;s|\.rb$||')
           [ -n "$changed" ] || { echo "nothing changed"; exit 0; }
           tap="$(brew --repository)/Library/Taps/stoatworks-labs/homebrew-tap"
           mkdir -p "$(dirname "$tap")"

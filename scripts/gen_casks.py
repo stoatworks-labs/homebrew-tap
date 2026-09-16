@@ -26,6 +26,14 @@ CASKS = ROOT / "Casks"
 APPS = ROOT / "data" / "apps.json"
 CATALOG_URL = "https://stoatworks-labs.com/catalog.json"
 
+# Cask tokens that cannot be the project slug. `brew audit --strict` refuses a
+# cask whose token is also a homebrew/core FORMULA name, and `flock` is
+# util-linux's file-locking tool there. The project already answers the same
+# clash on Linux, where its packages install the binary as `flock-manager`.
+# Everything else (data/apps.json, the catalogue, the README link) stays keyed
+# by slug; only the cask's token and file name change.
+TOKENS = {"flock": "flock-manager"}
+
 # Catalogue arch token -> the cask variant it belongs to.
 UNIVERSAL = {"universal", "both"}
 ARM = {"arm64", "aarch64"}
@@ -168,7 +176,7 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
     single = picked.get("universal") or (picked["arm"] if set(picked) == {"arm"} else None) \
         or (picked["intel"] if set(picked) == {"intel"} else None)
 
-    out = [f'cask "{slug}" do', f'  version {rb_str(version)}']
+    out = [f'cask "{TOKENS.get(slug, slug)}" do', f'  version {rb_str(version)}']
     if single is not None:
         b = pair(single, 2)
         if b is None:
@@ -322,10 +330,11 @@ def main() -> int:
         if rb is None:
             skipped.append((slug, "a selected asset has no sha256 digest on the release"))
             continue
-        (CASKS / f"{slug}.rb").write_text(rb)
-        written.append(slug)
+        token = TOKENS.get(slug, slug)
+        (CASKS / f"{token}.rb").write_text(rb)
+        written.append(token)
         rows.append({
-            "slug": slug,
+            "slug": token,
             "name": entry.get("name") or slug,
             "version": (entry.get("version") or "").lstrip("v"),
             "status": entry.get("status"),
