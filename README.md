@@ -58,29 +58,30 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | Application | Cask | Version | Runs on | State |
 | --- | --- | --- | --- | --- |
 | [animATEM](https://stoatworks-labs.com/software/animatem/) | `animatem` | 0.2.1 | Apple Silicon, Intel | Released |
-| [Aquilon VPU Map](https://stoatworks-labs.com/software/aquilon-vpu-map/) | `aquilon-vpu-map` | 1.2.1 | Apple Silicon, Intel | Released |
-| [ATEM Fleet Admin](https://stoatworks-labs.com/software/atem-fleet-admin/) | `atem-fleet-admin` | 0.4.3 | Universal | Field testing |
-| [ATEM Overseer](https://stoatworks-labs.com/software/atem-overseer/) | `atem-overseer` | 0.3.3 | Apple Silicon, Intel | Field testing |
+| [Aquilon VPU Map](https://stoatworks-labs.com/software/aquilon-vpu-map/) | `aquilon-vpu-map` | 1.2.1 | Apple Silicon, Intel | Field testing |
+| [ATEM Fleet Admin](https://stoatworks-labs.com/software/atem-fleet-admin/) | `atem-fleet-admin` | 0.4.4 | Universal | Field testing |
+| [ATEM Overseer](https://stoatworks-labs.com/software/atem-overseer/) | `atem-overseer` | 0.3.4 | Apple Silicon, Intel | Field testing |
 | [atem-scopes](https://stoatworks-labs.com/software/atem-scopes/) | `atem-scopes` | 0.2.1 | Apple Silicon, Intel | Released |
 | [av-launcher](https://stoatworks-labs.com/software/av-launcher/) | `av-launcher` | 0.2.1 | Apple Silicon, Intel | Released |
-| [BlackMatrix](https://stoatworks-labs.com/software/blackmatrix/) | `blackmatrix` | 0.3.0 | Apple Silicon, Intel | Field proven |
-| [Flock](https://stoatworks-labs.com/software/flock/) | `flock` | 0.2.3 | Universal | Field proven |
-| [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.1 | Apple Silicon | Field testing |
-| [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.1 | Apple Silicon, Intel | Field testing |
-| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.4.1 | Apple Silicon, Intel | Released |
+| [BlackMatrix](https://stoatworks-labs.com/software/blackmatrix/) | `blackmatrix` | 0.3.1 | Apple Silicon, Intel | Field proven |
+| [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.4 | Universal | Field proven |
+| [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.3 | Apple Silicon | Field testing |
+| [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.2 | Apple Silicon, Intel | Field testing |
+| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.7.0 | Universal | Field testing |
 | [MicWizard](https://stoatworks-labs.com/software/micwizard/) | `micwizard` | 0.2.1 | Apple Silicon, Intel | Released |
-| [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.0 | Universal | Field proven |
+| [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.1 | Universal | Field proven |
 | [Presentation Commander — Client](https://stoatworks-labs.com/software/presentation-commander-client/) | `presentation-commander-client` | 1.2.2 | Apple Silicon, Intel | Field testing |
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.2 | Apple Silicon, Intel | Field testing |
 | [Resolve Configurator](https://stoatworks-labs.com/software/resolve-configurator/) | `resolve-configurator` | 0.1.5 | Apple Silicon | Field testing |
-| [RFutils](https://stoatworks-labs.com/software/rfutils/) | `rfutils` | 0.4.3 | Apple Silicon, Intel | Released |
+| [RFutils](https://stoatworks-labs.com/software/rfutils/) | `rfutils` | 0.4.4 | Universal | Released |
 | [SimpleCue](https://stoatworks-labs.com/software/simplecue/) | `simplecue` | 0.4.1 | Universal | Field testing |
 | [simpleVIS](https://stoatworks-labs.com/software/simplevis/) | `simplevis` | 0.4.1 | Apple Silicon, Intel | Field testing |
+| [SRT Router](https://stoatworks-labs.com/software/srt-router/) | `srt-router` | 0.2.3 | Universal | Field testing |
 | [System Graft](https://stoatworks-labs.com/software/system-graft/) | `system-graft` | 0.2.2 | Apple Silicon | Field testing |
 | [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.0.3 | Apple Silicon | Field proven |
 | [WSM–WWB Bridge](https://stoatworks-labs.com/software/wsm-wwb-bridge/) | `wsm-wwb-bridge` | 1.1.1 | Apple Silicon, Intel | Field proven |
 
-22 applications.
+23 applications.
 <!-- casks:end -->
 
 Not everything Stoatworks publishes is a macOS application. The Resolume, Resolve
