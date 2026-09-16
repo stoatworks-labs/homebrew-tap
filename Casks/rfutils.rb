@@ -1,15 +1,7 @@
 cask "rfutils" do
-  version "0.4.3"
-
-  on_arm do
-    sha256 "5e309eb92df5dbe8500f3f8b0c3fdff8fd4f383b7555c6dfdc3109baf0307e77"
-    url "https://github.com/stoatworks-labs/RFutils/releases/download/v#{version}/rfutils-#{version}-macos-aarch64.dmg"
-  end
-
-  on_intel do
-    sha256 "3333421c78c6a063df90388a00f79ffe44d5b2702a63403d9cbe150f53cf4b33"
-    url "https://github.com/stoatworks-labs/RFutils/releases/download/v#{version}/rfutils-#{version}-macos-x86_64.dmg"
-  end
+  version "0.4.4"
+  sha256 "37bfa055ebb1d2713f0d2e76b8842be5cd0d43843187f83c45b6558e9398040a"
+  url "https://github.com/stoatworks-labs/RFutils/releases/download/v#{version}/rfutils-#{version}-macos-universal.dmg"
 
   name "RFutils"
   desc "RF coordination & mic monitoring"

@@ -22,7 +22,7 @@
     "bundleid": "com.allansargeant.atemfleetadmin",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.3/ATEM.Fleet.Admin-0.4.3.dmg"
+      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.4/ATEM.Fleet.Admin-0.4.4.dmg"
     ]
   },
   "atem-overseer": {
@@ -30,8 +30,8 @@
     "bundleid": "com.allansargeant.atem-overseer",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.3/atem-overseer-0.3.3-macos-aarch64.dmg",
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.3/atem-overseer-0.3.3-macos-x86_64.dmg"
+      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.4/atem-overseer-0.3.4-macos-aarch64.dmg",
+      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.4/atem-overseer-0.3.4-macos-x86_64.dmg"
     ]
   },
   "atem-scopes": {
@@ -57,8 +57,8 @@
     "bundleid": "com.allansargeant.blackmatrix",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.0/BlackMatrix_0.3.0_aarch64.dmg",
-      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.0/BlackMatrix_0.3.0_x64.dmg"
+      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.1/BlackMatrix_0.3.1_aarch64.dmg",
+      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.1/BlackMatrix_0.3.1_x64.dmg"
     ]
   },
   "flock": {
@@ -66,7 +66,7 @@
     "bundleid": "com.allansargeant.flock",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/flock/releases/download/v0.2.3/flock-0.2.3-macos-app.dmg"
+      "https://github.com/stoatworks-labs/flock/releases/download/v0.2.4/flock-0.2.4-macos-app.dmg"
     ]
   },
   "frame-ferret": {
@@ -74,7 +74,7 @@
     "bundleid": "com.allansargeant.frame-ferret",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/frame-ferret/releases/download/v0.2.2/Frame.Ferret_0.2.2_aarch64.dmg"
+      "https://github.com/stoatworks-labs/frame-ferret/releases/download/v0.2.3/Frame.Ferret_0.2.3_aarch64.dmg"
     ]
   },
   "leqtion": {
@@ -142,8 +142,7 @@
     "bundleid": "com.allansargeant.rfutils",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.3/rfutils-0.4.3-macos-aarch64.dmg",
-      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.3/rfutils-0.4.3-macos-x86_64.dmg"
+      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.4/rfutils-0.4.4-macos-universal.dmg"
     ]
   },
   "simplecue": {
@@ -161,6 +160,14 @@
     "selected": [
       "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.1/simpleVIS_0.4.1_aarch64.dmg",
       "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.1/simpleVIS_0.4.1_x64.dmg"
+    ]
+  },
+  "srt-router": {
+    "app": "SRT Router.app",
+    "bundleid": "com.allansargeant.srt-router",
+    "minos": "10.13",
+    "selected": [
+      "https://github.com/stoatworks-labs/srt-router/releases/download/v0.2.3/srt-router-0.2.3-macos-app.dmg"
     ]
   },
   "system-graft": {
