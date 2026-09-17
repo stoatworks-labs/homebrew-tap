@@ -103,6 +103,14 @@
       "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.1/micwizard-0.2.1-x64.dmg"
     ]
   },
+  "openrcs": {
+    "app": "openRCS.app",
+    "bundleid": "com.allansargeant.openrcs",
+    "minos": "10.13",
+    "selected": [
+      "https://github.com/stoatworks-labs/openrcs/releases/download/v0.8.0/openrcs-0.8.0-macos-app.dmg"
+    ]
+  },
   "pdf-presenter": {
     "app": "PDF Presenter.app",
     "bundleid": "com.allansargeant.pdf-presenter",
