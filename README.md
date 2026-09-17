@@ -69,7 +69,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.2 | Apple Silicon, Intel | Field testing |
 | [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.7.0 | Universal | Field testing |
 | [MicWizard](https://stoatworks-labs.com/software/micwizard/) | `micwizard` | 0.2.1 | Apple Silicon, Intel | Released |
-| [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.8.0 | Universal | Released |
+| [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.8.1 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.1 | Universal | Field proven |
 | [Presentation Commander — Client](https://stoatworks-labs.com/software/presentation-commander-client/) | `presentation-commander-client` | 1.2.2 | Apple Silicon, Intel | Field testing |
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.2 | Apple Silicon, Intel | Field testing |

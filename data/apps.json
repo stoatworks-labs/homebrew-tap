@@ -108,7 +108,7 @@
     "bundleid": "com.allansargeant.openrcs",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/openrcs/releases/download/v0.8.0/openrcs-0.8.0-macos-app.dmg"
+      "https://github.com/stoatworks-labs/openrcs/releases/download/v0.8.1/openrcs-0.8.1-macos-app.dmg"
     ]
   },
   "pdf-presenter": {
