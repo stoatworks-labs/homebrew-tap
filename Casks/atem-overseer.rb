@@ -1,15 +1,7 @@
 cask "atem-overseer" do
-  version "0.3.4"
-
-  on_arm do
-    sha256 "c38db7efb638406bca692e4d5e78175354314394f3cae4303e1968999c38052e"
-    url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-aarch64.dmg"
-  end
-
-  on_intel do
-    sha256 "0c6175dbb490cb853360a07a76c31481abdb114e30d7be090c53b6410e2bc6ae"
-    url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-x86_64.dmg"
-  end
+  version "0.3.6"
+  sha256 "cbdd2e31eeb1e81774c32ba47f564f1d0ecac5eb63d7af68753ec4eae1462a34"
+  url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-universal.dmg"
 
   name "ATEM Overseer"
   desc "ATEM fleet dashboard"

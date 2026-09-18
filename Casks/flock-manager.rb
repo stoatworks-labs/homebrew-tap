@@ -1,6 +1,6 @@
 cask "flock-manager" do
-  version "0.2.4"
-  sha256 "b0bf1ed7b8ca97e2098122459d22b8b9efd51a572ca8315d2f27f5d77cd4b5c2"
+  version "0.2.5"
+  sha256 "cf2c56c97062657744c26e4c8c47b53af44be5b45bd9999edd69384a751916d9"
   url "https://github.com/stoatworks-labs/flock/releases/download/v#{version}/flock-#{version}-macos-app.dmg"
 
   name "Flock"

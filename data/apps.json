@@ -19,10 +19,10 @@
   },
   "atem-fleet-admin": {
     "app": "ATEM Fleet Admin.app",
-    "bundleid": "com.allansargeant.atemfleetadmin",
-    "minos": "13.0",
+    "bundleid": "com.allansargeant.atem-fleet-admin",
+    "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.4/ATEM.Fleet.Admin-0.4.4.dmg"
+      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.6/atem-fleet-admin-0.4.6-macos-universal.dmg"
     ]
   },
   "atem-overseer": {
@@ -30,8 +30,7 @@
     "bundleid": "com.allansargeant.atem-overseer",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.4/atem-overseer-0.3.4-macos-aarch64.dmg",
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.4/atem-overseer-0.3.4-macos-x86_64.dmg"
+      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.6/atem-overseer-0.3.6-macos-universal.dmg"
     ]
   },
   "atem-scopes": {
@@ -48,8 +47,7 @@
     "bundleid": "com.allansargeant.av-launcher",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/av-launcher/releases/download/v0.2.1/av-launcher-0.2.1-macos-aarch64.dmg",
-      "https://github.com/stoatworks-labs/av-launcher/releases/download/v0.2.1/av-launcher-0.2.1-macos-x86_64.dmg"
+      "https://github.com/stoatworks-labs/av-launcher/releases/download/v0.3.1/av-launcher-0.3.1-macos-universal.dmg"
     ]
   },
   "blackmatrix": {
@@ -57,8 +55,7 @@
     "bundleid": "com.allansargeant.blackmatrix",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.1/BlackMatrix_0.3.1_aarch64.dmg",
-      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.1/BlackMatrix_0.3.1_x64.dmg"
+      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.3.3/blackmatrix-0.3.3-macos-universal.dmg"
     ]
   },
   "flock": {
@@ -66,7 +63,7 @@
     "bundleid": "com.allansargeant.flock",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/flock/releases/download/v0.2.4/flock-0.2.4-macos-app.dmg"
+      "https://github.com/stoatworks-labs/flock/releases/download/v0.2.5/flock-0.2.5-macos-app.dmg"
     ]
   },
   "frame-ferret": {
@@ -74,7 +71,7 @@
     "bundleid": "com.allansargeant.frame-ferret",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/frame-ferret/releases/download/v0.2.3/Frame.Ferret_0.2.3_aarch64.dmg"
+      "https://github.com/stoatworks-labs/frame-ferret/releases/download/v0.2.5/frame-ferret-0.2.5-macos-universal.dmg"
     ]
   },
   "leqtion": {
@@ -91,7 +88,7 @@
     "bundleid": "com.allansargeant.livepremier-plus",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.7.0/livepremier-plus-0.7.0-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.8.1/livepremier-plus-0.8.1-macos-universal.dmg"
     ]
   },
   "micwizard": {
@@ -108,7 +105,7 @@
     "bundleid": "com.allansargeant.openrcs",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/openrcs/releases/download/v0.8.2/openrcs-0.8.2-macos-app.dmg"
+      "https://github.com/stoatworks-labs/openrcs/releases/download/v0.8.3/openrcs-0.8.3-macos-app.dmg"
     ]
   },
   "pdf-presenter": {
@@ -150,7 +147,7 @@
     "bundleid": "com.allansargeant.rfutils",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.4/rfutils-0.4.4-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.5/rfutils-0.4.5-macos-universal.dmg"
     ]
   },
   "simplecue": {
@@ -175,7 +172,7 @@
     "bundleid": "com.allansargeant.srt-router",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/srt-router/releases/download/v0.2.3/srt-router-0.2.3-macos-app.dmg"
+      "https://github.com/stoatworks-labs/srt-router/releases/download/v0.2.4/srt-router-0.2.4-macos-app.dmg"
     ]
   },
   "system-graft": {

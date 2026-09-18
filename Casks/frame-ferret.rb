@@ -1,7 +1,7 @@
 cask "frame-ferret" do
-  version "0.2.3"
-  sha256 "b14784e669f761ae11bf1247733cddb8a6e98cdd76aaa96676f7bba76c14e364"
-  url "https://github.com/stoatworks-labs/frame-ferret/releases/download/v#{version}/Frame.Ferret_#{version}_aarch64.dmg"
+  version "0.2.5"
+  sha256 "e88e0e6acab0414e2a494ae02ff44b31fda9ad98b68ed31fd28704c0cf5b658f"
+  url "https://github.com/stoatworks-labs/frame-ferret/releases/download/v#{version}/frame-ferret-#{version}-macos-universal.dmg"
 
   name "Frame Ferret"
   desc "Software virtual capture card"
@@ -12,7 +12,6 @@ cask "frame-ferret" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
   depends_on macos: :big_sur
 
   app "Frame Ferret.app"
