@@ -148,6 +148,14 @@
       "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.5/rfutils-0.4.5-macos-universal.dmg"
     ]
   },
+  "showbook": {
+    "app": "Showbook.app",
+    "bundleid": "com.allansargeant.showbook",
+    "minos": "10.15",
+    "selected": [
+      "https://github.com/stoatworks-labs/showbook/releases/download/v0.1.0/Showbook_0.1.0_universal.dmg"
+    ]
+  },
   "simplecue": {
     "app": "SimpleCue.app",
     "bundleid": "com.allansargeant.simplecue",
