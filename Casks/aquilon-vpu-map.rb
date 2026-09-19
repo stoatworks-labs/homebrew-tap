@@ -1,15 +1,7 @@
 cask "aquilon-vpu-map" do
-  version "1.2.1"
-
-  on_arm do
-    sha256 "b6db8a135943f13d19fb1045795d639a9d49cc328c11b71783bc8ef2db368393"
-    url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_aarch64.dmg"
-  end
-
-  on_intel do
-    sha256 "1e5b4a4a238219cfa7de9476ec478a907e2b78557ab70fb7e391443d79ba2049"
-    url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_x64.dmg"
-  end
+  version "1.3.0"
+  sha256 "fcba7f03c89dec5e052191cace5308d39ba5bf4afc1688c735d99d789da7907b"
+  url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_universal.dmg"
 
   name "Aquilon VPU Map"
   desc "Where every mixer in the chassis went"

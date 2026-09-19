@@ -13,8 +13,7 @@
     "bundleid": "com.stoatworkslabs.aquilon-vpu-map",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.2.1/Aquilon.VPU.Map_1.2.1_aarch64.dmg",
-      "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.2.1/Aquilon.VPU.Map_1.2.1_x64.dmg"
+      "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.3.0/Aquilon.VPU.Map_1.3.0_universal.dmg"
     ]
   },
   "atem-fleet-admin": {
@@ -96,8 +95,7 @@
     "bundleid": "com.allansargeant.micwizard",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.1/micwizard-0.2.1-arm64.dmg",
-      "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.1/micwizard-0.2.1-x64.dmg"
+      "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.2/micwizard-0.2.2-universal.dmg"
     ]
   },
   "openrcs": {
@@ -121,8 +119,8 @@
     "bundleid": "com.presentationcommander.client",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.2.2/presentation-commander-client-1.2.2-arm64.dmg",
-      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.2.2/presentation-commander-client-1.2.2-x64.dmg"
+      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.3.0/presentation-commander-client-1.3.0-arm64.dmg",
+      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.3.0/presentation-commander-client-1.3.0-x64.dmg"
     ]
   },
   "presentation-commander-server": {
@@ -139,7 +137,7 @@
     "bundleid": "resolve-configurator-gui",
     "minos": null,
     "selected": [
-      "https://github.com/stoatworks-labs/resolve-configurator/releases/download/v0.1.5/resolve-configurator-0.1.5-macos-arm64.dmg"
+      "https://github.com/stoatworks-labs/resolve-configurator/releases/download/v0.1.6/resolve-configurator-0.1.6-macos-universal.dmg"
     ]
   },
   "rfutils": {
@@ -163,8 +161,7 @@
     "bundleid": "com.allansargeant.simplevis",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.1/simpleVIS_0.4.1_aarch64.dmg",
-      "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.1/simpleVIS_0.4.1_x64.dmg"
+      "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.2/simpleVIS_0.4.2_universal.dmg"
     ]
   },
   "srt-router": {
@@ -180,7 +177,7 @@
     "bundleid": "System Graft",
     "minos": null,
     "selected": [
-      "https://github.com/stoatworks-labs/system-graft/releases/download/v0.2.2/system-graft-0.2.2-macos-arm64.dmg"
+      "https://github.com/stoatworks-labs/system-graft/releases/download/v0.2.3/system-graft-0.2.3-macos-universal.dmg"
     ]
   },
   "weblinked": {
@@ -196,8 +193,7 @@
     "bundleid": "wsm-wwb-bridge",
     "minos": null,
     "selected": [
-      "https://github.com/stoatworks-labs/wsm-wwb-bridge/releases/download/v1.1.1/wsm-wwb-bridge-1.1.1-macos-aarch64.dmg",
-      "https://github.com/stoatworks-labs/wsm-wwb-bridge/releases/download/v1.1.1/wsm-wwb-bridge-1.1.1-macos-x86_64.dmg"
+      "https://github.com/stoatworks-labs/wsm-wwb-bridge/releases/download/v1.1.2/wsm-wwb-bridge-1.1.2-macos-universal.dmg"
     ]
   }
 }
