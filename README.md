@@ -80,7 +80,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [simpleVIS](https://stoatworks-labs.com/software/simplevis/) | `simplevis` | 0.4.2 | Universal | Field testing |
 | [SRT Router](https://stoatworks-labs.com/software/srt-router/) | `srt-router` | 0.2.4 | Universal | Field testing |
 | [System Graft](https://stoatworks-labs.com/software/system-graft/) | `system-graft` | 0.2.3 | Universal | Field testing |
-| [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.0.3 | Apple Silicon | Field proven |
+| [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.0.4 | Apple Silicon | Field proven |
 | [WSM–WWB Bridge](https://stoatworks-labs.com/software/wsm-wwb-bridge/) | `wsm-wwb-bridge` | 1.1.2 | Universal | Field proven |
 
 25 applications.
