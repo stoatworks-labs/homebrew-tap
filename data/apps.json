@@ -29,7 +29,7 @@
     "bundleid": "com.allansargeant.atem-overseer",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.6/atem-overseer-0.3.6-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.8/atem-overseer-0.3.8-macos-universal.dmg"
     ]
   },
   "atem-scopes": {
@@ -87,7 +87,7 @@
     "bundleid": "com.allansargeant.livepremier-plus",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.9.0/livepremier-plus-0.9.0-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.11.0/livepremier-plus-0.11.0-macos-universal.dmg"
     ]
   },
   "micwizard": {
