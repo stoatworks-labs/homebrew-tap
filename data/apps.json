@@ -87,7 +87,7 @@
     "bundleid": "com.allansargeant.livepremier-plus",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.8.1/livepremier-plus-0.8.1-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.9.0/livepremier-plus-0.9.0-macos-universal.dmg"
     ]
   },
   "micwizard": {
@@ -112,6 +112,14 @@
     "minos": "13.0",
     "selected": [
       "https://github.com/stoatworks-labs/pdf-presenter/releases/download/v1.7.1/pdf-presenter-1.7.1-universal.dmg"
+    ]
+  },
+  "peephole": {
+    "app": "Peephole.app",
+    "bundleid": "com.allansargeant.peephole",
+    "minos": "13.0",
+    "selected": [
+      "https://github.com/stoatworks-labs/peephole/releases/download/v0.1.0/peephole-0.1.0-macos-universal.dmg"
     ]
   },
   "presentation-commander-client": {

@@ -67,10 +67,11 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.5 | Universal | Field proven |
 | [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.5 | Universal | Field testing |
 | [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.2 | Apple Silicon, Intel | Field testing |
-| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.8.1 | Universal | Field testing |
+| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.9.0 | Universal | Field testing |
 | [MicWizard](https://stoatworks-labs.com/software/micwizard/) | `micwizard` | 0.2.2 | Universal | Released |
 | [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.8.3 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.1 | Universal | Field proven |
+| [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.0 | Universal | In development |
 | [Presentation Commander — Client](https://stoatworks-labs.com/software/presentation-commander-client/) | `presentation-commander-client` | 1.3.0 | Apple Silicon, Intel | Field testing |
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.2 | Apple Silicon, Intel | Field testing |
 | [Resolve Configurator](https://stoatworks-labs.com/software/resolve-configurator/) | `resolve-configurator` | 0.1.6 | Universal | Field testing |
@@ -83,7 +84,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.0.4 | Apple Silicon | Field proven |
 | [WSM–WWB Bridge](https://stoatworks-labs.com/software/wsm-wwb-bridge/) | `wsm-wwb-bridge` | 1.1.2 | Universal | Field proven |
 
-25 applications.
+26 applications.
 <!-- casks:end -->
 
 Not everything Stoatworks publishes is a macOS application. The Resolume, Resolve
