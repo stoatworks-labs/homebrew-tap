@@ -67,7 +67,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.5 | Universal | Field proven |
 | [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.5 | Universal | Field testing |
 | [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.2 | Apple Silicon, Intel | Field testing |
-| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.12.0 | Universal | Field testing |
+| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.13.0 | Universal | Field testing |
 | [MicWizard](https://stoatworks-labs.com/software/micwizard/) | `micwizard` | 0.2.2 | Universal | Released |
 | [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.8.3 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.1 | Universal | Field proven |
