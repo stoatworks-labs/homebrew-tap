@@ -76,6 +76,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.2 | Apple Silicon, Intel | Field testing |
 | [Resolve Configurator](https://stoatworks-labs.com/software/resolve-configurator/) | `resolve-configurator` | 0.1.6 | Universal | Field testing |
 | [RFutils](https://stoatworks-labs.com/software/rfutils/) | `rfutils` | 0.4.5 | Universal | Released |
+| [Show Mode](https://stoatworks-labs.com/software/showmode/) | `showmode` | 0.1.0 | Universal | Beta |
 | [Showbook](https://stoatworks-labs.com/software/showbook/) | `showbook` | 0.1.1 | Universal | In development |
 | [SimpleCue](https://stoatworks-labs.com/software/simplecue/) | `simplecue` | 0.4.1 | Universal | Field testing |
 | [simpleVIS](https://stoatworks-labs.com/software/simplevis/) | `simplevis` | 0.4.2 | Universal | Field testing |
@@ -84,7 +85,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.0.5 | Apple Silicon | Field proven |
 | [WSM–WWB Bridge](https://stoatworks-labs.com/software/wsm-wwb-bridge/) | `wsm-wwb-bridge` | 1.1.2 | Universal | Field proven |
 
-26 applications.
+27 applications.
 <!-- casks:end -->
 
 Not everything Stoatworks publishes is a macOS application. The Resolume, Resolve

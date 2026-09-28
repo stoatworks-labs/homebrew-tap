@@ -164,6 +164,14 @@
       "https://github.com/stoatworks-labs/showbook/releases/download/v0.1.1/Showbook_0.1.1_universal.dmg"
     ]
   },
+  "showmode": {
+    "app": "Show Mode.app",
+    "bundleid": "com.stoatworks.showmode",
+    "minos": "13.0",
+    "selected": [
+      "https://github.com/stoatworks-labs/showmode/releases/download/v0.1.0/showmode-0.1.0-macos-universal.dmg"
+    ]
+  },
   "simplecue": {
     "app": "SimpleCue.app",
     "bundleid": "com.allansargeant.simplecue",
