@@ -1,5 +1,8 @@
 # Stoatworks Homebrew tap
 
+> **AI-assisted project.** This codebase was created with [Claude](https://claude.com/claude-code)
+> (Anthropic), directed and reviewed by a human author.
+
 The [Stoatworks](https://stoatworks-labs.com) macOS applications, installable and
 upgradable with `brew`.
 
