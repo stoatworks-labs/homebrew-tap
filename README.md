@@ -65,6 +65,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [ATEM Fleet Admin](https://stoatworks-labs.com/software/atem-fleet-admin/) | `atem-fleet-admin` | 0.4.6 | Universal | Field testing |
 | [ATEM Overseer](https://stoatworks-labs.com/software/atem-overseer/) | `atem-overseer` | 0.3.8 | Universal | Field testing |
 | [atem-scopes](https://stoatworks-labs.com/software/atem-scopes/) | `atem-scopes` | 0.2.1 | Apple Silicon, Intel | Released |
+| [automitti](https://stoatworks-labs.com/software/automitti/) | `automitti` | 0.1.0 | Universal | Beta |
 | [av-launcher](https://stoatworks-labs.com/software/av-launcher/) | `av-launcher` | 0.3.1 | Universal | Released |
 | [BlackMatrix](https://stoatworks-labs.com/software/blackmatrix/) | `blackmatrix` | 0.3.3 | Universal | Field proven |
 | [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.5 | Universal | Field proven |
@@ -88,7 +89,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.0.5 | Apple Silicon | Field proven |
 | [WSM–WWB Bridge](https://stoatworks-labs.com/software/wsm-wwb-bridge/) | `wsm-wwb-bridge` | 1.1.2 | Universal | Field proven |
 
-27 applications.
+28 applications.
 <!-- casks:end -->
 
 Not everything Stoatworks publishes is a macOS application. The Resolume, Resolve

@@ -41,6 +41,14 @@
       "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.1/atem-scopes-0.2.1.dmg"
     ]
   },
+  "automitti": {
+    "app": "automitti.app",
+    "bundleid": "com.allansargeant.automitti",
+    "minos": "11.0",
+    "selected": [
+      "https://github.com/stoatworks-labs/automitti/releases/download/v0.1.0/automitti-0.1.0-macos-universal.dmg"
+    ]
+  },
   "av-launcher": {
     "app": "AV Launcher.app",
     "bundleid": "com.allansargeant.av-launcher",
