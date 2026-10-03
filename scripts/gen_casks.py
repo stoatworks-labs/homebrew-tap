@@ -165,12 +165,18 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
     homepage = (entry.get("guide") or "").removesuffix("/guide")
     homepage = (homepage + "/") if homepage else f"https://stoatworks-labs.com/software/{slug}/"
     def pair(a, indent):
-        """sha256 + url for one asset, or None if the release has no digest."""
+        """sha256 + url for one asset, or None if the release has no digest.
+
+        Homebrew's Cask/StanzaGrouping treats sha256 and url as separate stanza
+        groups, so a single blank line sits between them. The blank line carries
+        no padding - a padded blank would trip Layout/TrailingWhitespace.
+        """
         sha = digests.get(a["url"].rsplit("/", 1)[-1])
         if not sha:
             return None
         pad = " " * indent
         return (f'{pad}sha256 {rb_str(sha)}\n'
+                f'\n'
                 f'{pad}url {rb_str(templated(a["url"], version))}')
 
     single = picked.get("universal") or (picked["arm"] if set(picked) == {"arm"} else None) \
@@ -178,16 +184,21 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
 
     out = [f'cask "{TOKENS.get(slug, slug)}" do', f'  version {rb_str(version)}']
     if single is not None:
+        # version + sha256 are one group; url opens the next, so pair() already
+        # carries the blank between sha256 and url and name follows url directly.
         b = pair(single, 2)
         if b is None:
             return None
-        out += [b, ""]
+        out += [b]
     else:
+        # The on_arm/on_intel blocks are a single stanza group - no blank line
+        # between them - with one blank before the first and one after the last.
+        out.append("")
         for slot, guard in (("arm", "on_arm"), ("intel", "on_intel")):
             b = pair(picked[slot], 4)
             if b is None:
                 return None
-            out += ["", f"  {guard} do", b, "  end"]
+            out += [f"  {guard} do", b, "  end"]
         out.append("")
 
     out += [
@@ -207,10 +218,15 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
         deps.append("  depends_on arch: :arm64")
     elif set(picked) == {"intel"}:
         deps.append("  depends_on arch: :x86_64")
-    if minos:
+    # Every cask here ships a macOS .app, so Homebrew/OSDependsOn wants a macOS
+    # dependency on each one. big_sur is HOMEBREW_MACOS_OLDEST_ALLOWED, so naming
+    # it as the minimum is redundant - the bare `depends_on :macos` is the
+    # idiomatic form. A higher floor is a real constraint and keeps its symbol.
+    if minos and minos != "big_sur":
         deps.append(f"  depends_on macos: :{minos}")
-    if deps:
-        out += deps + [""]
+    else:
+        deps.append("  depends_on :macos")
+    out += deps + [""]
 
     out.append(f"  app {rb_str(appname)}")
 
@@ -230,8 +246,12 @@ def render(entry: dict, picked: dict, digests: dict, appname: str, minos: str | 
             seen.add(x)
             uniq.append(x)
     if len(uniq) > 1:
+        lines = [f"    {rb_str(x)}," for x in uniq]
+        # Cask/ArrayAlphabetization orders the elements by their stanza line,
+        # case-insensitively (RuboCop keys on `line.strip.downcase`).
+        lines.sort(key=lambda line: line.strip().lower())
         out += ["", "  zap trash: ["]
-        out += [f"    {rb_str(x)}," for x in uniq]
+        out += lines
         out.append("  ]")
 
     out.append("end")

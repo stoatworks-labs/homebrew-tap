@@ -1,8 +1,8 @@
 cask "atem-fleet-admin" do
   version "0.4.6"
   sha256 "a0b86fd125530a7a5e7ae6f7487bc46e5de9603ce6bcccb2bb91b4c90895c291"
-  url "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v#{version}/atem-fleet-admin-#{version}-macos-universal.dmg"
 
+  url "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v#{version}/atem-fleet-admin-#{version}-macos-universal.dmg"
   name "ATEM Fleet Admin"
   desc "Provision every ATEM at once"
   homepage "https://stoatworks-labs.com/software/atem-fleet-admin/"
@@ -12,7 +12,7 @@ cask "atem-fleet-admin" do
     strategy :github_latest
   end
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "ATEM Fleet Admin.app"
 

@@ -1,8 +1,8 @@
 cask "blackmatrix" do
   version "0.3.3"
   sha256 "ce03051f05791bc27946c3988a3f812b84fe338a89ba7a949f1928807a9a1dbe"
-  url "https://github.com/stoatworks-labs/blackmatrix/releases/download/v#{version}/blackmatrix-#{version}-macos-universal.dmg"
 
+  url "https://github.com/stoatworks-labs/blackmatrix/releases/download/v#{version}/blackmatrix-#{version}-macos-universal.dmg"
   name "BlackMatrix"
   desc "ATEM fleet as one router, with failover"
   homepage "https://stoatworks-labs.com/software/blackmatrix/"
@@ -12,7 +12,7 @@ cask "blackmatrix" do
     strategy :github_latest
   end
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "BlackMatrix.app"
 
