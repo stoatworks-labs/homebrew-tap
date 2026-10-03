@@ -4,7 +4,7 @@ cask "showmode" do
 
   url "https://github.com/stoatworks-labs/showmode/releases/download/v#{version}/showmode-#{version}-macos-universal.dmg"
   name "Show Mode"
-  desc "One click to lock a Mac down for a show"
+  desc "One click to lock a machine down for a show"
   homepage "https://stoatworks-labs.com/software/showmode/"
 
   livecheck do
