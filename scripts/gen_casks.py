@@ -271,9 +271,14 @@ def write_readme_table(rows: list[dict], statuses: dict) -> None:
                       text.split(start)[0] + start + "\n" + "\n".join(out) + "\n" + end + text.split(end, 1)[1])
 
 
+# Homebrew (>= 7) disabled the symbols for catalina (10.15) and older; the
+# oldest macOS it supports is big_sur (11, HOMEBREW_MACOS_OLDEST_ALLOWED), so
+# that is the lowest floor a cask can express. Apps whose real minimum is older
+# still run on modern macOS, so clamp them up to big_sur rather than emit a
+# disabled symbol.
 MACOS_NAMES = [
     (26, "tahoe"), (15, "sequoia"), (14, "sonoma"), (13, "ventura"),
-    (12, "monterey"), (11, "big_sur"), (10.15, "catalina"), (10.14, "mojave"),
+    (12, "monterey"), (11, "big_sur"),
 ]
 
 
@@ -287,7 +292,8 @@ def macos_name(v: str | None) -> str | None:
     for threshold, name in MACOS_NAMES:
         if major >= threshold:
             return name
-    return None
+    # Anything older than big_sur clamps up to it (see note above).
+    return "big_sur"
 
 
 def main() -> int:
