@@ -80,7 +80,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.2 | Apple Silicon, Intel | Field testing |
 | [Resolve Configurator](https://stoatworks-labs.com/software/resolve-configurator/) | `resolve-configurator` | 0.1.6 | Universal | Field testing |
 | [RFutils](https://stoatworks-labs.com/software/rfutils/) | `rfutils` | 0.4.5 | Universal | Released |
-| [Show Mode](https://stoatworks-labs.com/software/showmode/) | `showmode` | 0.3.1 | Universal | Beta |
+| [Show Mode](https://stoatworks-labs.com/software/showmode/) | `showmode` | 0.3.1 | Universal | Field proven |
 | [Showbook](https://stoatworks-labs.com/software/showbook/) | `showbook` | 0.1.1 | Universal | In development |
 | [SimpleCue](https://stoatworks-labs.com/software/simplecue/) | `simplecue` | 0.4.1 | Universal | Field testing |
 | [simpleVIS](https://stoatworks-labs.com/software/simplevis/) | `simplevis` | 0.4.2 | Universal | Field testing |
