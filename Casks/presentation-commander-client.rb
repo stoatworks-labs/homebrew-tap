@@ -2,12 +2,12 @@ cask "presentation-commander-client" do
   version "1.3.0"
 
   on_arm do
-    sha256 "179f0382f28d11b3d277c1cc3c92c300b2db4c5e4272af103c9f9c93859e99d1"
+    sha256 "ee4e3f9f15a3c20113826a0d76bc54fda2918f6188322dfdc01572b6388f585b"
 
     url "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v#{version}/presentation-commander-client-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "5d4e8722ad97ff0fb66bbbff1b4db46a3501ef12ae4b85f95bd2e2bdc54c1692"
+    sha256 "b4b0875058c7f47acd0a8f9fb1fbf40d9694385946c1dae316183a85b348f758"
 
     url "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v#{version}/presentation-commander-client-#{version}-x64.dmg"
   end
