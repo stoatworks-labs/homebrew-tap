@@ -1,13 +1,13 @@
 cask "atem-scopes" do
-  version "0.2.1"
+  version "0.2.2"
 
   on_arm do
-    sha256 "17ff237449940796deb905638a17a7300fff84fe1a79b9188a7abcd6b29b31b6"
+    sha256 "4b66b42b618785952c128cb4c9695169b9d421b402ebb220d911e51fc909578c"
 
     url "https://github.com/stoatworks-labs/atem-scopes/releases/download/v#{version}/atem-scopes-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "28e7f6dabc4e3cdde20c873a3c0686d58181683cf081299e84bfced2a616d184"
+    sha256 "aa3b3a31df1e31cf10bd827ff7613d3df79c9e036911912da410f65008d6b677"
 
     url "https://github.com/stoatworks-labs/atem-scopes/releases/download/v#{version}/atem-scopes-#{version}.dmg"
   end

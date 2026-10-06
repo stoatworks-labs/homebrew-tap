@@ -4,8 +4,8 @@
     "bundleid": "com.allansargeant.animatem",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/animATEM/releases/download/v0.2.1/animATEM-0.2.1-arm64.dmg",
-      "https://github.com/stoatworks-labs/animATEM/releases/download/v0.2.1/animATEM-0.2.1.dmg"
+      "https://github.com/stoatworks-labs/animATEM/releases/download/v0.2.2/animATEM-0.2.2-arm64.dmg",
+      "https://github.com/stoatworks-labs/animATEM/releases/download/v0.2.2/animATEM-0.2.2.dmg"
     ]
   },
   "aquilon-vpu-map": {
@@ -13,7 +13,7 @@
     "bundleid": "com.stoatworkslabs.aquilon-vpu-map",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.3.0/Aquilon.VPU.Map_1.3.0_universal.dmg"
+      "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.3.1/Aquilon.VPU.Map_1.3.1_universal.dmg"
     ]
   },
   "atem-fleet-admin": {
@@ -21,7 +21,7 @@
     "bundleid": "com.allansargeant.atem-fleet-admin",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.6/atem-fleet-admin-0.4.6-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.7/atem-fleet-admin-0.4.7-macos-universal.dmg"
     ]
   },
   "atem-overseer": {
@@ -29,7 +29,7 @@
     "bundleid": "com.allansargeant.atem-overseer",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.8/atem-overseer-0.3.8-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.9/atem-overseer-0.3.9-macos-universal.dmg"
     ]
   },
   "atem-scopes": {
@@ -37,8 +37,8 @@
     "bundleid": "com.stoatworks.atem-scopes",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.1/atem-scopes-0.2.1-arm64.dmg",
-      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.1/atem-scopes-0.2.1.dmg"
+      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.2/atem-scopes-0.2.2-arm64.dmg",
+      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.2/atem-scopes-0.2.2.dmg"
     ]
   },
   "automitti": {
@@ -54,7 +54,7 @@
     "bundleid": "com.allansargeant.av-launcher",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/av-launcher/releases/download/v0.3.1/av-launcher-0.3.1-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/av-launcher/releases/download/v0.3.2/av-launcher-0.3.2-macos-universal.dmg"
     ]
   },
   "blackmatrix": {
@@ -70,7 +70,7 @@
     "bundleid": "com.allansargeant.flock",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/flock/releases/download/v0.2.5/flock-0.2.5-macos-app.dmg"
+      "https://github.com/stoatworks-labs/flock/releases/download/v0.2.6/flock-0.2.6-macos-app.dmg"
     ]
   },
   "frame-ferret": {
@@ -78,7 +78,7 @@
     "bundleid": "com.allansargeant.frame-ferret",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/frame-ferret/releases/download/v0.2.5/frame-ferret-0.2.5-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/frame-ferret/releases/download/v0.2.6/frame-ferret-0.2.6-macos-universal.dmg"
     ]
   },
   "leqtion": {
@@ -86,8 +86,8 @@
     "bundleid": "com.allansargeant.leqtion",
     "minos": "10.15",
     "selected": [
-      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.2/leqtion-0.1.2-macos-aarch64.dmg",
-      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.2/leqtion-0.1.2-macos-x86_64.dmg"
+      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.3/leqtion-0.1.3-macos-aarch64.dmg",
+      "https://github.com/stoatworks-labs/LEQtion/releases/download/v0.1.3/leqtion-0.1.3-macos-x86_64.dmg"
     ]
   },
   "livepremier-plus": {
@@ -95,7 +95,7 @@
     "bundleid": "com.allansargeant.livepremier-plus",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.16.0/livepremier-plus-0.16.0-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.17.0/livepremier-plus-0.17.0-macos-universal.dmg"
     ]
   },
   "micwizard": {
@@ -103,7 +103,7 @@
     "bundleid": "com.allansargeant.micwizard",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.2/micwizard-0.2.2-universal.dmg"
+      "https://github.com/stoatworks-labs/MicWizard/releases/download/v0.2.3/micwizard-0.2.3-universal.dmg"
     ]
   },
   "openrcs": {
@@ -111,7 +111,7 @@
     "bundleid": "com.allansargeant.openrcs",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/openrcs/releases/download/v0.8.3/openrcs-0.8.3-macos-app.dmg"
+      "https://github.com/stoatworks-labs/openrcs/releases/download/v0.9.0/openrcs-0.9.0-macos-app.dmg"
     ]
   },
   "pdf-presenter": {
@@ -119,7 +119,7 @@
     "bundleid": "com.allansargeant.pdf-presenter",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/pdf-presenter/releases/download/v1.7.1/pdf-presenter-1.7.1-universal.dmg"
+      "https://github.com/stoatworks-labs/pdf-presenter/releases/download/v1.7.2/pdf-presenter-1.7.2-universal.dmg"
     ]
   },
   "peephole": {
@@ -127,7 +127,7 @@
     "bundleid": "com.allansargeant.peephole",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/peephole/releases/download/v0.1.0/peephole-0.1.0-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/peephole/releases/download/v0.1.1/peephole-0.1.1-macos-universal.dmg"
     ]
   },
   "presentation-commander-client": {
@@ -135,8 +135,8 @@
     "bundleid": "com.presentationcommander.client",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.3.0/presentation-commander-client-1.3.0-arm64.dmg",
-      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.3.0/presentation-commander-client-1.3.0-x64.dmg"
+      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.3.1/presentation-commander-client-1.3.1-arm64.dmg",
+      "https://github.com/stoatworks-labs/presentation-commander-client/releases/download/v1.3.1/presentation-commander-client-1.3.1-x64.dmg"
     ]
   },
   "presentation-commander-server": {
@@ -144,8 +144,8 @@
     "bundleid": "com.presentationcommander.server",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v1.1.2/presentation-commander-server-1.1.2-arm64.dmg",
-      "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v1.1.2/presentation-commander-server-1.1.2-x64.dmg"
+      "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v1.1.3/presentation-commander-server-1.1.3-arm64.dmg",
+      "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v1.1.3/presentation-commander-server-1.1.3-x64.dmg"
     ]
   },
   "resolve-configurator": {
@@ -161,7 +161,7 @@
     "bundleid": "com.allansargeant.rfutils",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.5/rfutils-0.4.5-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.4.6/rfutils-0.4.6-macos-universal.dmg"
     ]
   },
   "showbook": {
@@ -169,7 +169,7 @@
     "bundleid": "com.allansargeant.showbook",
     "minos": "10.15",
     "selected": [
-      "https://github.com/stoatworks-labs/showbook/releases/download/v0.1.1/Showbook_0.1.1_universal.dmg"
+      "https://github.com/stoatworks-labs/showbook/releases/download/v0.2.0/Showbook_0.2.0_universal.dmg"
     ]
   },
   "showmode": {
@@ -177,7 +177,7 @@
     "bundleid": "com.stoatworks.showmode",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/showmode/releases/download/v0.3.1/showmode-0.3.1-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/showmode/releases/download/v0.4.0/showmode-0.4.0-macos-universal.dmg"
     ]
   },
   "simplecue": {
@@ -193,7 +193,7 @@
     "bundleid": "com.allansargeant.simplevis",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.2/simpleVIS_0.4.2_universal.dmg"
+      "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.3/simpleVIS_0.4.3_universal.dmg"
     ]
   },
   "srt-router": {
@@ -201,7 +201,7 @@
     "bundleid": "com.allansargeant.srt-router",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/srt-router/releases/download/v0.2.4/srt-router-0.2.4-macos-app.dmg"
+      "https://github.com/stoatworks-labs/srt-router/releases/download/v0.2.5/srt-router-0.2.5-macos-app.dmg"
     ]
   },
   "system-graft": {
@@ -217,7 +217,7 @@
     "bundleid": "works.stoat.weblinked",
     "minos": "12.0",
     "selected": [
-      "https://github.com/stoatworks-labs/weblinked/releases/download/v1.1.0/weblinked-engine-1.1.0-macos-arm64.dmg"
+      "https://github.com/stoatworks-labs/weblinked/releases/download/v1.2.0/weblinked-engine-1.2.0-macos-arm64.dmg"
     ]
   },
   "wsm-wwb-bridge": {

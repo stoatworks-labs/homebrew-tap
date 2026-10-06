@@ -1,6 +1,6 @@
 cask "showbook" do
-  version "0.1.1"
-  sha256 "9408040e34128fe870b556983c31752832e808551ac8f4114bb293213baee833"
+  version "0.2.0"
+  sha256 "63804bae06318062028ecbdb6127d4af3600a841ebe2e31bfed4e07626fa331c"
 
   url "https://github.com/stoatworks-labs/showbook/releases/download/v#{version}/Showbook_#{version}_universal.dmg"
   name "Showbook"

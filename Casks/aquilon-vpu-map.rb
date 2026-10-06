@@ -1,6 +1,6 @@
 cask "aquilon-vpu-map" do
-  version "1.3.0"
-  sha256 "fcba7f03c89dec5e052191cace5308d39ba5bf4afc1688c735d99d789da7907b"
+  version "1.3.1"
+  sha256 "48cda8bd6c8636a496d8fa4e77ed8eabf9e5475c069eec5a5992535e68b0640f"
 
   url "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v#{version}/Aquilon.VPU.Map_#{version}_universal.dmg"
   name "Aquilon VPU Map"

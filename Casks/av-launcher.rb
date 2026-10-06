@@ -1,6 +1,6 @@
 cask "av-launcher" do
-  version "0.3.1"
-  sha256 "855209b2d5add39164f9177183437baf925484d2f9cdfb4ba0ac5b5c1a08a992"
+  version "0.3.2"
+  sha256 "3f0b957677cf2e854e4165d9f0216528126d3d75030801cdb6dd89386cdf7027"
 
   url "https://github.com/stoatworks-labs/av-launcher/releases/download/v#{version}/av-launcher-#{version}-macos-universal.dmg"
   name "av-launcher"

@@ -1,6 +1,6 @@
 cask "frame-ferret" do
-  version "0.2.5"
-  sha256 "e88e0e6acab0414e2a494ae02ff44b31fda9ad98b68ed31fd28704c0cf5b658f"
+  version "0.2.6"
+  sha256 "fe0bc71138fe2c4917aaf4ecb627bf302aaaee785c47aa8c34d7af17dc1ea27f"
 
   url "https://github.com/stoatworks-labs/frame-ferret/releases/download/v#{version}/frame-ferret-#{version}-macos-universal.dmg"
   name "Frame Ferret"

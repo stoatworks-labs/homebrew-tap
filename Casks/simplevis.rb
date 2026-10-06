@@ -1,6 +1,6 @@
 cask "simplevis" do
-  version "0.4.2"
-  sha256 "7f74ce9a2fe5023a1f0d7bbe8806d83a8261b9d8851db55a8bc009c242645817"
+  version "0.4.3"
+  sha256 "a46f4e56425a234a0fa21471ebe03c50e31f0624c7f9a5a8176e0003792a6fa3"
 
   url "https://github.com/stoatworks-labs/simpleVIS/releases/download/v#{version}/simpleVIS_#{version}_universal.dmg"
   name "simpleVIS"

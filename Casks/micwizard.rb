@@ -1,6 +1,6 @@
 cask "micwizard" do
-  version "0.2.2"
-  sha256 "320b644bc762bd92ae615ec401e681bb6a0f11726d555ee752939368f9daa2cd"
+  version "0.2.3"
+  sha256 "585d29a03e481ea3bac4fe2791dc889d7fef4efd3c098765174f5971ec609edc"
 
   url "https://github.com/stoatworks-labs/MicWizard/releases/download/v#{version}/micwizard-#{version}-universal.dmg"
   name "MicWizard"

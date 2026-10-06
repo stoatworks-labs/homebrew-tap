@@ -1,13 +1,13 @@
 cask "leqtion" do
-  version "0.1.2"
+  version "0.1.3"
 
   on_arm do
-    sha256 "0577c9967d7f25c66e34858d410cc59bd6b21a8a3876af72e731e36e2c149399"
+    sha256 "aede87301e784bc5cc09eb76a4e4f2d66b7da7152a8fad6beb739a38f9bb1f61"
 
     url "https://github.com/stoatworks-labs/LEQtion/releases/download/v#{version}/leqtion-#{version}-macos-aarch64.dmg"
   end
   on_intel do
-    sha256 "ea2a4efb84d34d8c6feafc864d802021902bdced088ec266f7ce8a2ff0df8a4f"
+    sha256 "67c49fbdae0ae410b25b48bd988d54aeed81973f09f0c7eecb0eb9c46c37dd50"
 
     url "https://github.com/stoatworks-labs/LEQtion/releases/download/v#{version}/leqtion-#{version}-macos-x86_64.dmg"
   end

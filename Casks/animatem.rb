@@ -1,13 +1,13 @@
 cask "animatem" do
-  version "0.2.1"
+  version "0.2.2"
 
   on_arm do
-    sha256 "1e5488c091a7bb9cecc4128fd13530819c676fe0ca29ec005a7fe952ec37fa60"
+    sha256 "7e62736e8d4fa116efd82b3208859d718c5027096ff5ca75766700e7c636499a"
 
     url "https://github.com/stoatworks-labs/animATEM/releases/download/v#{version}/animATEM-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "c32e354b91793680d1f8896bb6c80c287e305086e31bf5e2ef90d0711c40c753"
+    sha256 "1d942daea00c69f08519c479902381a36c06e195f9c1711826458556a79d2883"
 
     url "https://github.com/stoatworks-labs/animATEM/releases/download/v#{version}/animATEM-#{version}.dmg"
   end
