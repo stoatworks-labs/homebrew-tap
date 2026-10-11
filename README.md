@@ -65,7 +65,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [ATEM Fleet Admin](https://stoatworks-labs.com/software/atem-fleet-admin/) | `atem-fleet-admin` | 0.4.7 | Universal | Field testing |
 | [ATEM Overseer](https://stoatworks-labs.com/software/atem-overseer/) | `atem-overseer` | 0.3.9 | Universal | Field testing |
 | [atem-scopes](https://stoatworks-labs.com/software/atem-scopes/) | `atem-scopes` | 0.2.2 | Apple Silicon, Intel | Released |
-| [automitti](https://stoatworks-labs.com/software/automitti/) | `automitti` | 0.1.1 | Universal | Beta |
+| [automitti](https://stoatworks-labs.com/software/automitti/) | `automitti` | 0.2.0 | Universal | Beta |
 | [av-launcher](https://stoatworks-labs.com/software/av-launcher/) | `av-launcher` | 0.3.2 | Universal | Released |
 | [BlackMatrix](https://stoatworks-labs.com/software/blackmatrix/) | `blackmatrix` | 0.4.0 | Universal | Field proven |
 | [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.6 | Universal | Field proven |

@@ -1,6 +1,6 @@
 cask "automitti" do
-  version "0.1.1"
-  sha256 "7fe0c9be9c5081dd856f00bedfe4c5de50532d24c4e05f2d53efc87a416bceea"
+  version "0.2.0"
+  sha256 "613676e033c0720016c550a77ba7c152ec60577bce9b74354c8448cc83b5877c"
 
   url "https://github.com/stoatworks-labs/automitti/releases/download/v#{version}/automitti-#{version}-macos-universal.dmg"
   name "automitti"
