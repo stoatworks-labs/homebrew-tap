@@ -34,6 +34,16 @@ CATALOG_URL = "https://stoatworks-labs.com/catalog.json"
 # by slug; only the cask's token and file name change.
 TOKENS = {"flock": "flock-manager"}
 
+# Apps that left the catalogue, with the cask that replaces each and the date.
+# The generator never deletes a cask, because people have these installed:
+# it marks each one deprecated with a replacement, so `brew` tells them where
+# to go, and stops regenerating it. A retired app also drops out of the README
+# table, which is built from the catalogue.
+RETIRED = {
+    "micwizard": ("rfutils", "2026-10-11"),       # merged into RFutils
+    "wsm-wwb-bridge": ("rfutils", "2026-10-11"),  # merged into RFutils
+}
+
 # Catalogue arch token -> the cask variant it belongs to.
 UNIVERSAL = {"universal", "both"}
 ARM = {"arm64", "aarch64"}
@@ -316,6 +326,23 @@ def macos_name(v: str | None) -> str | None:
     return "big_sur"
 
 
+def retire(token: str, replacement: str, date: str) -> bool:
+    """Add a deprecate! stanza to an existing cask, once. True if it changed."""
+    path = CASKS / f"{token}.rb"
+    if not path.exists():
+        return False
+    rb = path.read_text()
+    if "deprecate!" in rb or "disable!" in rb:
+        return False
+    stanza = f'  deprecate! date: "{date}", because: :discontinued, replacement_cask: "{replacement}"\n'
+    # Cask/StanzaOrder puts deprecate! after livecheck, else after homepage,
+    # and Cask/StanzaGrouping wants it in a group of its own.
+    m = re.search(r"\n  livecheck do\n.*?\n  end\n", rb, re.S)
+    at = m.end() if m else rb.index("\n", rb.index("\n  homepage ") + 1) + 1
+    path.write_text(rb[:at] + "\n" + stanza + rb[at:])
+    return True
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--catalog", default=CATALOG_URL)
@@ -334,6 +361,8 @@ def main() -> int:
         if not picked:
             continue
         slug, repo = entry["slug"], entry["repo"]
+        if TOKENS.get(slug, slug) in RETIRED:
+            continue
         tag = entry.get("version")
         digests = digests_for(repo, tag)
         if not digests:
@@ -368,10 +397,14 @@ def main() -> int:
             "homepage": ((entry.get("guide") or "").removesuffix("/guide") or f"https://stoatworks-labs.com/software/{slug}") + "/",
         })
 
+    retired = [t for t, (rep_, date) in RETIRED.items() if retire(t, rep_, date)]
+
     APPS.write_text(json.dumps(apps, indent=2, sort_keys=True) + "\n")
     write_readme_table(rows, cat.get("statuses") or {})
 
     print(f"wrote {len(written)} casks")
+    for t in retired:
+        print(f"  deprecated {t} -> {RETIRED[t][0]}")
     for s in written:
         print(f"  {s}")
     if skipped:

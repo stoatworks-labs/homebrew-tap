@@ -12,6 +12,8 @@ cask "wsm-wwb-bridge" do
     strategy :github_latest
   end
 
+  deprecate! date: "2026-10-11", because: :discontinued, replacement_cask: "rfutils"
+
   depends_on :macos
 
   app "wsm-wwb-bridge.app"
