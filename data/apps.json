@@ -37,8 +37,8 @@
     "bundleid": "com.stoatworks.atem-scopes",
     "minos": "13.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.2/atem-scopes-0.2.2-arm64.dmg",
-      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.2/atem-scopes-0.2.2.dmg"
+      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.3/atem-scopes-0.2.3-arm64.dmg",
+      "https://github.com/stoatworks-labs/atem-scopes/releases/download/v0.2.3/atem-scopes-0.2.3.dmg"
     ]
   },
   "automitti": {
@@ -95,7 +95,7 @@
     "bundleid": "com.allansargeant.livepremier-plus",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.17.0/livepremier-plus-0.17.0-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.17.1/livepremier-plus-0.17.1-macos-universal.dmg"
     ]
   },
   "micwizard": {
@@ -193,7 +193,7 @@
     "bundleid": "com.allansargeant.simplevis",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.3/simpleVIS_0.4.3_universal.dmg"
+      "https://github.com/stoatworks-labs/simpleVIS/releases/download/v0.4.4/simpleVIS_0.4.4_universal.dmg"
     ]
   },
   "srt-router": {
