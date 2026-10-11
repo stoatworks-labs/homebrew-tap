@@ -1,6 +1,6 @@
 cask "rfutils" do
-  version "0.4.6"
-  sha256 "256879baafdcf45cb1baad2619ec0d14b3c8d9bd05fdf3e3c379e26614088648"
+  version "0.5.0"
+  sha256 "129be6cf5c7f6a853658dddecf728294d488acb78ea73a9e0897f3018259b555"
 
   url "https://github.com/stoatworks-labs/RFutils/releases/download/v#{version}/rfutils-#{version}-macos-universal.dmg"
   name "RFutils"
