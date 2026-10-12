@@ -3,8 +3,8 @@
 > **AI-assisted project.** This codebase was created with [Claude](https://claude.com/claude-code)
 > (Anthropic), directed and reviewed by a human author.
 
-The [Stoatworks](https://stoatworks-labs.com) macOS applications, installable and
-upgradable with `brew`.
+My [Stoatworks](https://stoatworks-labs.com) macOS applications, ready to install and
+upgrade with `brew`.
 
 ```bash
 brew tap stoatworks-labs/tap
@@ -13,42 +13,42 @@ brew install --cask pdf-presenter
 ```
 
 From then on `brew upgrade` picks up new releases along with everything else on
-the machine — which is the whole point of this repo. Nothing here phones home,
-and nothing is bundled or repackaged: every cask points straight at the disk
-image on the project's own GitHub release.
+the machine, which is what this repo is for. Nothing here phones home and nothing
+gets bundled or repackaged: every cask points straight at the disk image on the
+project's own GitHub release.
 
 ### That middle line
 
-Homebrew 6 will not load a cask from a tap it has not been told to trust, and
+Homebrew 6 won't load a cask from a tap it hasn't been told to trust, and
 refuses with `Refusing to load cask ... from untrusted tap` until you say so.
-That is a good default — a tap is code that runs on your machine — so the
-command is spelled out here rather than hidden. Trust one cask instead of the
-whole tap if you would rather:
+That's a sensible default (a tap is code that runs on your machine), so I've
+spelled the command out here rather than tucking it away. If you'd rather trust
+one cask than the whole tap:
 
 ```bash
 brew trust --cask stoatworks-labs/tap/pdf-presenter
 ```
 
-On Homebrew 5 and earlier there is no `brew trust`; the tap and install lines
+Homebrew 5 and earlier don't have `brew trust`, and the tap and install lines
 work on their own.
 
 ## Why a tap, and not homebrew-cask
 
-Homebrew's own cask repository asks that software be notable before it is
-accepted — 75 stars, or 30 forks, or 30 watchers. These are working tools for a
-small trade and none of them clear that bar, so they live here instead. A tap is
-a first-class Homebrew citizen: once the two lines above have been run, these
-casks behave exactly like any other, `brew upgrade` included.
+Homebrew's own cask repository wants software to be notable before it'll take
+it: 75 stars, or 30 forks, or 30 watchers. These are working tools for a fairly
+small trade and none of them clear that bar, so they live here instead. Once
+you've run the two lines above, these casks behave like any other, `brew upgrade`
+included.
 
 ## Gatekeeper
 
-Every disk image referenced here is signed with a Developer ID Application
-certificate — *ALLAN SARGEANT (3G7USP8N73)* — and notarised by Apple with the
+Every disk image these casks point at is signed with a Developer ID Application
+certificate (*ALLAN SARGEANT (3G7USP8N73)*) and notarised by Apple, with the
 ticket stapled to the image. Homebrew quarantines what it installs, as it
-should, and these open normally under that quarantine. There is no
-`xattr` incantation to run and no right-click-Open dance.
+should, and these open normally under that quarantine. There's no `xattr`
+incantation to run and no right-click-Open dance.
 
-You can check any of them yourself before trusting this claim:
+Don't take my word for it, though. You can check any of them yourself:
 
 ```bash
 brew fetch --cask stoatworks-labs/tap/pdf-presenter
@@ -90,31 +90,32 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 26 applications.
 <!-- casks:end -->
 
-Not everything Stoatworks publishes is a macOS application. The Resolume, Resolve
-and After Effects plugins, the audio plugins, the Companion modules and the
-self-hosted browser tools are not casks and are not here — [Burrow](https://github.com/stoatworks-labs/burrow)
-covers those, and the [website](https://stoatworks-labs.com) has all of them.
+Not everything I publish is a macOS application. The Resolume, Resolve and After
+Effects plugins, the audio plugins, the Companion modules and the self-hosted
+browser tools aren't casks, so they aren't here. [Burrow](https://github.com/stoatworks-labs/burrow)
+covers those, and the [website](https://stoatworks-labs.com) has the lot.
 
 ## How this repo stays current
 
-The casks are **generated, not hand-written**. Editing one by hand will be
-overwritten on the next run.
+The casks are **generated**. If you edit one by hand, the next run will
+overwrite it.
 
 `scripts/gen_casks.py` rebuilds every cask from
-[the live catalogue](https://stoatworks-labs.com/catalog.json) — the same
-source the website and Burrow read, so a cask can never advertise a build the
-fleet does not actually publish. Checksums come from the GitHub release API's
-per-asset `digest` field, so no image is downloaded merely to hash it.
+[the live catalogue](https://stoatworks-labs.com/catalog.json), which is the
+same source the website and Burrow read, so a cask can never advertise a build
+the fleet doesn't actually publish. Checksums come from the GitHub release API's
+per-asset `digest` field, so nothing gets downloaded just to hash it.
 
-The one fact the catalogue does not carry is the name of the `.app` inside each
-disk image. That lives in `data/apps.json` and is learned by mounting the image
-and reading the bundle — never inferred from the filename, because the fleet's
-four build toolchains name their artefacts four different ways. The image is
-re-mounted whenever the asset a cask points at changes.
+The one thing the catalogue doesn't know is the name of the `.app` inside each
+disk image. That lives in `data/apps.json`, and it's learned by mounting the
+image and reading the bundle. It's never guessed from the filename, because the
+fleet's four build toolchains name their artefacts four different ways, each
+quite sure its way is the sensible one. The image gets mounted again whenever
+the asset a cask points at changes.
 
-A scheduled run does this daily; `repository_dispatch` of type
-`catalogue-changed` brings it forward. Changed casks are put through
-`brew audit --cask --strict` before anything is committed.
+A scheduled run does all this daily, and a `repository_dispatch` of type
+`catalogue-changed` brings it forward. Any cask that changed goes through
+`brew audit --cask --strict` before anything's committed.
 
 ```bash
 python3 scripts/gen_casks.py --verify   # regenerate locally (macOS)
