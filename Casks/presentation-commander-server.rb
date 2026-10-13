@@ -13,7 +13,7 @@ cask "presentation-commander-server" do
   end
 
   name "Presentation Commander — Server"
-  desc "NDI matrix for live events"
+  desc "Master control for a presentation room, over NDI"
   homepage "https://stoatworks-labs.com/software/presentation-commander-server/"
 
   livecheck do

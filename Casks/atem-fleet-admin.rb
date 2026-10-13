@@ -4,7 +4,7 @@ cask "atem-fleet-admin" do
 
   url "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v#{version}/atem-fleet-admin-#{version}-macos-universal.dmg"
   name "ATEM Fleet Admin"
-  desc "Provision every ATEM at once"
+  desc "Set up every ATEM in the fleet at once"
   homepage "https://stoatworks-labs.com/software/atem-fleet-admin/"
 
   livecheck do

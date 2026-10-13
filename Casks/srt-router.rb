@@ -4,7 +4,7 @@ cask "srt-router" do
 
   url "https://github.com/stoatworks-labs/srt-router/releases/download/v#{version}/srt-router-#{version}-macos-app.dmg"
   name "SRT Router"
-  desc "SRT crosspoint router"
+  desc "Broadcast-style crosspoint for SRT"
   homepage "https://stoatworks-labs.com/software/srt-router/"
 
   livecheck do

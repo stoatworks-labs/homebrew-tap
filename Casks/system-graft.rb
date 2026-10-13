@@ -4,7 +4,7 @@ cask "system-graft" do
 
   url "https://github.com/stoatworks-labs/system-graft/releases/download/v#{version}/system-graft-#{version}-macos-universal.dmg"
   name "System Graft"
-  desc "Graft modules into an initrd"
+  desc "Drivers the installer forgot, grafted into an initrd"
   homepage "https://stoatworks-labs.com/software/system-graft/"
 
   livecheck do

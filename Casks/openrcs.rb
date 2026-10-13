@@ -4,7 +4,7 @@ cask "openrcs" do
 
   url "https://github.com/stoatworks-labs/openrcs/releases/download/v#{version}/openrcs-#{version}-macos-app.dmg"
   name "openRCS"
-  desc "Modern control for Analog Way switchers"
+  desc "Fresh control surface for Analog Way LiveCore and Midra"
   homepage "https://stoatworks-labs.com/software/openrcs/"
 
   livecheck do

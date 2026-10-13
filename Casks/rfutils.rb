@@ -4,7 +4,7 @@ cask "rfutils" do
 
   url "https://github.com/stoatworks-labs/RFutils/releases/download/v#{version}/rfutils-#{version}-macos-universal.dmg"
   name "RFutils"
-  desc "RF coordination & mic monitoring"
+  desc "RF coordination and radio-mic monitoring"
   homepage "https://stoatworks-labs.com/software/rfutils/"
 
   livecheck do

@@ -4,7 +4,7 @@ cask "atem-overseer" do
 
   url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-universal.dmg"
   name "ATEM Overseer"
-  desc "ATEM fleet dashboard"
+  desc "Whole fleet of ATEMs on one screen"
   homepage "https://stoatworks-labs.com/software/atem-overseer/"
 
   livecheck do

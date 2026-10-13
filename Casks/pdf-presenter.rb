@@ -4,7 +4,7 @@ cask "pdf-presenter" do
 
   url "https://github.com/stoatworks-labs/pdf-presenter/releases/download/v#{version}/pdf-presenter-#{version}-universal.dmg"
   name "PDF Presenter"
-  desc "Minimal PDF presenter"
+  desc "PDF presenter, and not much else"
   homepage "https://stoatworks-labs.com/software/pdf-presenter/"
 
   livecheck do

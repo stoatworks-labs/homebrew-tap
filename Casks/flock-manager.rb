@@ -4,7 +4,7 @@ cask "flock-manager" do
 
   url "https://github.com/stoatworks-labs/flock/releases/download/v#{version}/flock-#{version}-macos-app.dmg"
   name "Flock"
-  desc "BirdDog decoder fleet UI"
+  desc "Every BirdDog Play decoder from one page"
   homepage "https://stoatworks-labs.com/software/flock/"
 
   livecheck do

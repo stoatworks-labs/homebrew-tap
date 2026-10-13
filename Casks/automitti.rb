@@ -4,7 +4,7 @@ cask "automitti" do
 
   url "https://github.com/stoatworks-labs/automitti/releases/download/v#{version}/automitti-#{version}-macos-universal.dmg"
   name "automitti"
-  desc "Mitti on any switcher (preview)"
+  desc "Mitti on switchers it's never heard of (preview)"
   homepage "https://stoatworks-labs.com/software/automitti/"
 
   livecheck do

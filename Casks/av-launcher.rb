@@ -4,7 +4,7 @@ cask "av-launcher" do
 
   url "https://github.com/stoatworks-labs/av-launcher/releases/download/v#{version}/av-launcher-#{version}-macos-universal.dmg"
   name "av-launcher"
-  desc "Tray launcher shell for the web-server apps"
+  desc "One tray launcher for all my web-server apps"
   homepage "https://stoatworks-labs.com/software/av-launcher/"
 
   livecheck do

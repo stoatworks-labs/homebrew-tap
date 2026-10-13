@@ -4,7 +4,7 @@ cask "resolve-configurator" do
 
   url "https://github.com/stoatworks-labs/resolve-configurator/releases/download/v#{version}/resolve-configurator-#{version}-macos-universal.dmg"
   name "Resolve Configurator"
-  desc "Build a Resolve project from CSV"
+  desc "Whole Resolve project from one CSV"
   homepage "https://stoatworks-labs.com/software/resolve-configurator/"
 
   livecheck do
