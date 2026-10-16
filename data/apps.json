@@ -217,7 +217,7 @@
     "bundleid": "works.stoat.weblinked",
     "minos": "12.0",
     "selected": [
-      "https://github.com/stoatworks-labs/weblinked/releases/download/v1.2.0/weblinked-engine-1.2.0-macos-arm64.dmg"
+      "https://github.com/stoatworks-labs/weblinked/releases/download/v1.3.0/weblinked-engine-1.3.0-macos-arm64.dmg"
     ]
   },
   "wsm-wwb-bridge": {

@@ -1,6 +1,6 @@
 cask "weblinked" do
-  version "1.2.0"
-  sha256 "e6b26024007cbd61d7560a6a387168cf773cd0b71bed7581ab8580a8a8002f10"
+  version "1.3.0"
+  sha256 "a56609fcc2bb67cf4ee5cebff9c88e48ad0f3d96325d0bf4a6b71ff8a70c562e"
 
   url "https://github.com/stoatworks-labs/weblinked/releases/download/v#{version}/weblinked-engine-#{version}-macos-arm64.dmg"
   name "WebLinked"
