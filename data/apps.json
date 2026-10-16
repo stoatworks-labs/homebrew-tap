@@ -13,7 +13,7 @@
     "bundleid": "com.stoatworkslabs.aquilon-vpu-map",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.3.1/Aquilon.VPU.Map_1.3.1_universal.dmg"
+      "https://github.com/stoatworks-labs/aquilon-vpu-map/releases/download/v1.4.0/Aquilon.VPU.Map_1.4.0_universal.dmg"
     ]
   },
   "atem-fleet-admin": {
@@ -95,7 +95,7 @@
     "bundleid": "com.allansargeant.livepremier-plus",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.17.3/livepremier-plus-0.17.3-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.17.4/livepremier-plus-0.17.4-macos-universal.dmg"
     ]
   },
   "micwizard": {

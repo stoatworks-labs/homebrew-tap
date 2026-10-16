@@ -61,7 +61,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | Application | Cask | Version | Runs on | State |
 | --- | --- | --- | --- | --- |
 | [animATEM](https://stoatworks-labs.com/software/animatem/) | `animatem` | 0.2.2 | Apple Silicon, Intel | Released |
-| [Aquilon VPU Map](https://stoatworks-labs.com/software/aquilon-vpu-map/) | `aquilon-vpu-map` | 1.3.1 | Universal | Field testing |
+| [Aquilon VPU Map](https://stoatworks-labs.com/software/aquilon-vpu-map/) | `aquilon-vpu-map` | 1.4.0 | Universal | Field testing |
 | [ATEM Fleet Admin](https://stoatworks-labs.com/software/atem-fleet-admin/) | `atem-fleet-admin` | 0.4.7 | Universal | Field testing |
 | [ATEM Overseer](https://stoatworks-labs.com/software/atem-overseer/) | `atem-overseer` | 0.3.9 | Universal | Field testing |
 | [atem-scopes](https://stoatworks-labs.com/software/atem-scopes/) | `atem-scopes` | 0.2.3 | Apple Silicon, Intel | Released |
@@ -71,7 +71,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.6 | Universal | Field proven |
 | [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.6 | Universal | Field testing |
 | [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.3 | Apple Silicon, Intel | Field testing |
-| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.17.3 | Universal | Field testing |
+| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.17.4 | Universal | Field testing |
 | [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.10.0 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.2 | Universal | Field proven |
 | [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.1 | Universal | In development |
