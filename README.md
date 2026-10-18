@@ -85,7 +85,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [simpleVIS](https://stoatworks-labs.com/software/simplevis/) | `simplevis` | 0.4.4 | Universal | Field testing |
 | [SRT Router](https://stoatworks-labs.com/software/srt-router/) | `srt-router` | 0.2.5 | Universal | Field testing |
 | [System Graft](https://stoatworks-labs.com/software/system-graft/) | `system-graft` | 0.2.3 | Universal | Field testing |
-| [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.3.0 | Apple Silicon | Field proven |
+| [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.3.1 | Apple Silicon | Field proven |
 
 26 applications.
 <!-- casks:end -->
