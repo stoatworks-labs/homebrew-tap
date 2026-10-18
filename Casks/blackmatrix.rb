@@ -1,6 +1,6 @@
 cask "blackmatrix" do
-  version "0.4.0"
-  sha256 "2f2694f9f6bfb62bc7e19c04d1cd059f7d8ba0ebb7b0924755f52aab373b4b63"
+  version "0.4.1"
+  sha256 "07ee36250d3d9a790b495d68881f6586ea54d98f54eb946dce1c30c0dd0f549e"
 
   url "https://github.com/stoatworks-labs/blackmatrix/releases/download/v#{version}/blackmatrix-#{version}-macos-universal.dmg"
   name "BlackMatrix"
