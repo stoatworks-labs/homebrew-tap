@@ -71,7 +71,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.6 | Universal | Field proven |
 | [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.6 | Universal | Field testing |
 | [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.3 | Apple Silicon, Intel | Field testing |
-| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.17.7 | Universal | Field testing |
+| [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.17.8 | Universal | Field testing |
 | [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.10.0 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.2 | Universal | Field proven |
 | [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.1 | Universal | In development |
