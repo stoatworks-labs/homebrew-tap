@@ -65,7 +65,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [ATEM Fleet Admin](https://stoatworks-labs.com/software/atem-fleet-admin/) | `atem-fleet-admin` | 0.4.7 | Universal | Field testing |
 | [ATEM Overseer](https://stoatworks-labs.com/software/atem-overseer/) | `atem-overseer` | 0.3.9 | Universal | Field testing |
 | [atem-scopes](https://stoatworks-labs.com/software/atem-scopes/) | `atem-scopes` | 0.2.3 | Apple Silicon, Intel | Released |
-| [automitti](https://stoatworks-labs.com/software/automitti/) | `automitti` | 0.2.0 | Universal | Beta |
+| [automitti](https://stoatworks-labs.com/software/automitti/) | `automitti` | 0.2.1 | Universal | Beta |
 | [av-launcher](https://stoatworks-labs.com/software/av-launcher/) | `av-launcher` | 0.3.2 | Universal | Released |
 | [BlackMatrix](https://stoatworks-labs.com/software/blackmatrix/) | `blackmatrix` | 0.4.1 | Universal | Field proven |
 | [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.6 | Universal | Field proven |
@@ -75,7 +75,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.11.1 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.2 | Universal | Field proven |
 | [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.1 | Universal | In development |
-| [Presentation Commander — Client](https://stoatworks-labs.com/software/presentation-commander-client/) | `presentation-commander-client` | 1.3.1 | Apple Silicon, Intel | Field testing |
+| [Presentation Commander — Client](https://stoatworks-labs.com/software/presentation-commander-client/) | `presentation-commander-client` | 1.3.2 | Apple Silicon, Intel | Field testing |
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.3 | Apple Silicon, Intel | Field testing |
 | [Resolve Configurator](https://stoatworks-labs.com/software/resolve-configurator/) | `resolve-configurator` | 0.1.6 | Universal | Field testing |
 | [RFutils](https://stoatworks-labs.com/software/rfutils/) | `rfutils` | 0.5.0 | Universal | Released |
