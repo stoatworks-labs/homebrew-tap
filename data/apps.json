@@ -29,7 +29,7 @@
     "bundleid": "com.allansargeant.atem-overseer",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.10/atem-overseer-0.3.10-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.11/atem-overseer-0.3.11-macos-universal.dmg"
     ]
   },
   "atem-scopes": {
@@ -161,7 +161,7 @@
     "bundleid": "com.allansargeant.rfutils",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.5.1/rfutils-0.5.1-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.5.2/rfutils-0.5.2-macos-universal.dmg"
     ]
   },
   "showbook": {

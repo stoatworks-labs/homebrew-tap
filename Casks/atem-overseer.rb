@@ -1,6 +1,6 @@
 cask "atem-overseer" do
-  version "0.3.10"
-  sha256 "81b3ab914356e5e5c6a1414ae1d3416f94c241cadc7494c22308cda6b6ed7662"
+  version "0.3.11"
+  sha256 "72b73666d2f7954869e1b41de6311524d20da0133dd1c6b9466d56630488939a"
 
   url "https://github.com/stoatworks-labs/atem-overseer/releases/download/v#{version}/atem-overseer-#{version}-macos-universal.dmg"
   name "ATEM Overseer"
