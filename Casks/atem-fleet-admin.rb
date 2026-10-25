@@ -1,6 +1,6 @@
 cask "atem-fleet-admin" do
-  version "0.4.8"
-  sha256 "01d52bbcf83ecc681445cad6699091513de8a3a7e298884910b87931db75c292"
+  version "0.4.9"
+  sha256 "c2b3fee1504f0ae14485b683ddc0d9c3cb4610550a0866c14a36f881894bafc6"
 
   url "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v#{version}/atem-fleet-admin-#{version}-macos-universal.dmg"
   name "ATEM Fleet Admin"

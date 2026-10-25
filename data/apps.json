@@ -21,7 +21,7 @@
     "bundleid": "com.allansargeant.atem-fleet-admin",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.8/atem-fleet-admin-0.4.8-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/atem-fleet-admin/releases/download/v0.4.9/atem-fleet-admin-0.4.9-macos-universal.dmg"
     ]
   },
   "atem-overseer": {
@@ -29,7 +29,7 @@
     "bundleid": "com.allansargeant.atem-overseer",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.9/atem-overseer-0.3.9-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/atem-overseer/releases/download/v0.3.10/atem-overseer-0.3.10-macos-universal.dmg"
     ]
   },
   "atem-scopes": {
@@ -62,7 +62,7 @@
     "bundleid": "com.allansargeant.blackmatrix",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.4.1/blackmatrix-0.4.1-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/blackmatrix/releases/download/v0.4.2/blackmatrix-0.4.2-macos-universal.dmg"
     ]
   },
   "flock": {
@@ -161,7 +161,7 @@
     "bundleid": "com.allansargeant.rfutils",
     "minos": "11.0",
     "selected": [
-      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.5.0/rfutils-0.5.0-macos-universal.dmg"
+      "https://github.com/stoatworks-labs/RFutils/releases/download/v0.5.1/rfutils-0.5.1-macos-universal.dmg"
     ]
   },
   "showbook": {
