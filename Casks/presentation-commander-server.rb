@@ -1,13 +1,13 @@
 cask "presentation-commander-server" do
-  version "1.1.3"
+  version "1.1.4"
 
   on_arm do
-    sha256 "759e07024fb24c0430e2453d883662b32f5bd43547e25cc612ab605135bfbf58"
+    sha256 "b05f1131912438f716efb2935ac51f543a84ef6d12d3f6a2c626ec28d3ebdc50"
 
     url "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v#{version}/presentation-commander-server-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "7a174f6c1abedf2cc3cab497e6d79f2586a2e9c380a5141426359b55ef79d7bd"
+    sha256 "77642f5e93a06e0cdf13044a04bd3c2e33e2e41085a56de4a8c22d7227ebd068"
 
     url "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v#{version}/presentation-commander-server-#{version}-x64.dmg"
   end

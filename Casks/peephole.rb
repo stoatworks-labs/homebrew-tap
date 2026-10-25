@@ -1,6 +1,6 @@
 cask "peephole" do
-  version "0.1.1"
-  sha256 "60d7b03195e98425eb825a89af95dda4b33599421cb9599982564629c4a5a362"
+  version "0.1.2"
+  sha256 "1d02f34811c2493cf4a008fbdb65ec21fcf27932a08f54ddb202d8c2916b5be7"
 
   url "https://github.com/stoatworks-labs/peephole/releases/download/v#{version}/peephole-#{version}-macos-universal.dmg"
   name "Peephole"

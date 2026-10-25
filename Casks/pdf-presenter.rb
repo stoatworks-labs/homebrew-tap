@@ -1,6 +1,6 @@
 cask "pdf-presenter" do
-  version "1.7.2"
-  sha256 "6342ba6f78732adeda98c8b5edd748104cec7d4c5228a558bc004456a9591618"
+  version "1.7.3"
+  sha256 "9c6a052d352f3564cd034f1aa9107ec5e8123dcaeb7f17ed1cce7d12dba3d8ef"
 
   url "https://github.com/stoatworks-labs/pdf-presenter/releases/download/v#{version}/pdf-presenter-#{version}-universal.dmg"
   name "PDF Presenter"
