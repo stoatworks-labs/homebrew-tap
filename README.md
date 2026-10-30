@@ -74,7 +74,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.18.6 | Universal | Field testing |
 | [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.11.2 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.3 | Universal | Field proven |
-| [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.2 | Universal | In development |
+| [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.2 | Universal | Field proven |
 | [Presentation Commander — Client](https://stoatworks-labs.com/software/presentation-commander-client/) | `presentation-commander-client` | 1.3.2 | Apple Silicon, Intel | Field testing |
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.4 | Apple Silicon, Intel | Field testing |
 | [Resolve Configurator](https://stoatworks-labs.com/software/resolve-configurator/) | `resolve-configurator` | 0.1.6 | Universal | Field testing |
