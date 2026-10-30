@@ -41,6 +41,9 @@ jobs:
           tap="$(brew --repository)/Library/Taps/stoatworks-labs/homebrew-tap"
           mkdir -p "$(dirname "$tap")"
           ln -sfn "$GITHUB_WORKSPACE" "$tap"
+          # Homebrew now refuses to load a cask from a tap nobody has trusted, and a
+          # refused load fails the audit, which keeps the refresh from committing.
+          brew trust --tap stoatworks-labs/tap || echo "no brew trust here; auditing anyway"
           rc=0
           for c in $changed; do
             echo "::group::audit $c"
