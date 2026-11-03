@@ -1,6 +1,6 @@
 cask "showmode" do
-  version "0.5.0"
-  sha256 "dbd06bfaa181e8ef887358b5b6dc4578735d3577c85c87cf3c585335ae8fc9a1"
+  version "0.6.0"
+  sha256 "618321eef1667810fee325840a414e2142ead6814c113cd3c8c3cb98b14fa523"
 
   url "https://github.com/stoatworks-labs/showmode/releases/download/v#{version}/showmode-#{version}-macos-universal.dmg"
   name "Show Mode"
