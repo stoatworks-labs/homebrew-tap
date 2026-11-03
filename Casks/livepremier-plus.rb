@@ -1,6 +1,6 @@
 cask "livepremier-plus" do
-  version "0.18.9"
-  sha256 "2fee3b4249c5ffbf68ab0a0840a24349ad8ceee83f8cec209b72b868e2086c9c"
+  version "0.18.10"
+  sha256 "763d9a6bd0d7c019b6cbb54cc3750a8f8fae07d6b45d12850f562c003c628925"
 
   url "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v#{version}/livepremier-plus-#{version}-macos-universal.dmg"
   name "LivePremier Plus"
