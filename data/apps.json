@@ -148,6 +148,14 @@
       "https://github.com/stoatworks-labs/presentation-commander-server/releases/download/v1.1.4/presentation-commander-server-1.1.4-x64.dmg"
     ]
   },
+  "remora": {
+    "app": "Remora.app",
+    "bundleid": "com.stoatworks.remora",
+    "minos": "13.0",
+    "selected": [
+      "https://github.com/stoatworks-labs/remora/releases/download/v0.3.0/remora-0.3.0-macos-universal.dmg"
+    ]
+  },
   "resolve-configurator": {
     "app": "resolve-configurator-gui.app",
     "bundleid": "resolve-configurator-gui",
