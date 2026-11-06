@@ -77,7 +77,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.2 | Universal | Field proven |
 | [Presentation Commander — Client](https://stoatworks-labs.com/software/presentation-commander-client/) | `presentation-commander-client` | 1.3.2 | Apple Silicon, Intel | Field testing |
 | [Presentation Commander — Server](https://stoatworks-labs.com/software/presentation-commander-server/) | `presentation-commander-server` | 1.1.4 | Apple Silicon, Intel | Field testing |
-| [Remora](https://stoatworks-labs.com/software/remora/) | `remora` | 0.3.0 | Universal | Beta |
+| [Remora](https://stoatworks-labs.com/software/remora/) | `remora` | 0.3.1 | Universal | Beta |
 | [Resolve Configurator](https://stoatworks-labs.com/software/resolve-configurator/) | `resolve-configurator` | 0.1.6 | Universal | Field testing |
 | [RFutils](https://stoatworks-labs.com/software/rfutils/) | `rfutils` | 0.5.2 | Universal | Released |
 | [Show Mode](https://stoatworks-labs.com/software/showmode/) | `showmode` | 0.6.0 | Universal | Field proven |
