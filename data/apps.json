@@ -209,7 +209,7 @@
     "bundleid": "com.allansargeant.srt-router",
     "minos": "10.13",
     "selected": [
-      "https://github.com/stoatworks-labs/srt-router/releases/download/v0.2.5/srt-router-0.2.5-macos-app.dmg"
+      "https://github.com/stoatworks-labs/srt-router/releases/download/v0.2.6/srt-router-0.2.6-macos-app.dmg"
     ]
   },
   "system-graft": {

@@ -84,7 +84,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Showbook](https://stoatworks-labs.com/software/showbook/) | `showbook` | 0.2.0 | Universal | In development |
 | [SimpleCue](https://stoatworks-labs.com/software/simplecue/) | `simplecue` | 0.4.1 | Universal | Field testing |
 | [simpleVIS](https://stoatworks-labs.com/software/simplevis/) | `simplevis` | 0.4.4 | Universal | Field testing |
-| [SRT Router](https://stoatworks-labs.com/software/srt-router/) | `srt-router` | 0.2.5 | Universal | Field testing |
+| [SRT Router](https://stoatworks-labs.com/software/srt-router/) | `srt-router` | 0.2.6 | Universal | Field testing |
 | [System Graft](https://stoatworks-labs.com/software/system-graft/) | `system-graft` | 0.2.3 | Universal | Field testing |
 | [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.3.1 | Apple Silicon | Field proven |
 
