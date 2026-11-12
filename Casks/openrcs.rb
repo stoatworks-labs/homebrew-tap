@@ -1,6 +1,6 @@
 cask "openrcs" do
-  version "0.11.2"
-  sha256 "b85fd7710cfbf5e4c39fcfef4563a860354bc3a180afbcbc3d085f15a5bf5c55"
+  version "0.11.3"
+  sha256 "c3b60d895a5c051f677f11d81510a55a6480b806d4c0db3510b440f2e119c80e"
 
   url "https://github.com/stoatworks-labs/openrcs/releases/download/v#{version}/openrcs-#{version}-macos-app.dmg"
   name "openRCS"
