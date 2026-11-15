@@ -1,6 +1,6 @@
 cask "remora" do
-  version "0.4.0"
-  sha256 "90ab7aeeb7cc3d6269e9b59e2b8354e56055b00070aad849a390d50b0f852bf8"
+  version "0.4.1"
+  sha256 "cc55107d169cc4396162d765e820d3a49fd8afd5b558f2390853efea68c214c7"
 
   url "https://github.com/stoatworks-labs/remora/releases/download/v#{version}/remora-#{version}-macos-universal.dmg"
   name "Remora"
