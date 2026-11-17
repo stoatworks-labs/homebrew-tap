@@ -1,6 +1,6 @@
 cask "simplecue" do
-  version "0.5.0"
-  sha256 "0537657d86d440000e85e77d56d853423f77fb9c07dfa80a82984e2ad2b79f51"
+  version "0.5.1"
+  sha256 "b27a93a3b429c3541e3e3f63489920ebf2cebc5588b6d4f1708b15ca7a27d487"
 
   url "https://github.com/stoatworks-labs/simplecue/releases/download/v#{version}/simplecue-#{version}-macos-universal.dmg"
   name "SimpleCue"
