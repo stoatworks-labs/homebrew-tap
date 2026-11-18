@@ -1,6 +1,6 @@
 cask "srt-router" do
-  version "0.2.6"
-  sha256 "4bd44aff807194162bef462011c0d565cb354bef8a0f8f7bfe0431c8ddbaa13a"
+  version "0.2.7"
+  sha256 "47a9d40f9d0c7ee41f4cd973de57071cdf7c4bf98901bce316c84567561034d3"
 
   url "https://github.com/stoatworks-labs/srt-router/releases/download/v#{version}/srt-router-#{version}-macos-app.dmg"
   name "SRT Router"
