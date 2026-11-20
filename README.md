@@ -68,7 +68,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [automitti](https://stoatworks-labs.com/software/automitti/) | `automitti` | 0.2.1 | Universal | Beta |
 | [av-launcher](https://stoatworks-labs.com/software/av-launcher/) | `av-launcher` | 0.3.2 | Universal | Released |
 | [BlackMatrix](https://stoatworks-labs.com/software/blackmatrix/) | `blackmatrix` | 0.4.2 | Universal | Field proven |
-| [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.6 | Universal | Field proven |
+| [Flock](https://stoatworks-labs.com/software/flock/) | `flock-manager` | 0.2.7 | Universal | Field proven |
 | [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.6 | Universal | Field testing |
 | [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.3 | Apple Silicon, Intel | Field testing |
 | [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.19.0 | Universal | Field testing |
