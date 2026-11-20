@@ -1,6 +1,6 @@
 cask "meerkat" do
-  version "0.1.0"
-  sha256 "ec6952b3db62b4d12b92ffa4ba85a1c1e57005dace6c59c4cc7edeab6bff8881"
+  version "0.2.0"
+  sha256 "e326fb15472ef894ac35abf1da360fd9f905889005e5f42f8d7d26c291799a07"
 
   url "https://github.com/stoatworks-labs/meerkat/releases/download/v#{version}/Meerkat_#{version}_universal.dmg"
   name "Meerkat"
