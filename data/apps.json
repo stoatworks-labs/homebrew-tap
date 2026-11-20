@@ -98,6 +98,14 @@
       "https://github.com/stoatworks-labs/livepremier-plus/releases/download/v0.19.0/livepremier-plus-0.19.0-macos-universal.dmg"
     ]
   },
+  "meerkat": {
+    "app": "Meerkat.app",
+    "bundleid": "com.allansargeant.meerkat",
+    "minos": "10.15",
+    "selected": [
+      "https://github.com/stoatworks-labs/meerkat/releases/download/v0.1.0/Meerkat_0.1.0_universal.dmg"
+    ]
+  },
   "micwizard": {
     "app": "MicWizard.app",
     "bundleid": "com.allansargeant.micwizard",

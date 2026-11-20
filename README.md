@@ -72,6 +72,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [Frame Ferret](https://stoatworks-labs.com/software/frame-ferret/) | `frame-ferret` | 0.2.6 | Universal | Field testing |
 | [LEQtion](https://stoatworks-labs.com/software/leqtion/) | `leqtion` | 0.1.3 | Apple Silicon, Intel | Field testing |
 | [LivePremier Plus](https://stoatworks-labs.com/software/livepremier-plus/) | `livepremier-plus` | 0.19.0 | Universal | Field testing |
+| [Meerkat](https://stoatworks-labs.com/software/meerkat/) | `meerkat` | 0.1.0 | Universal | Beta |
 | [openRCS](https://stoatworks-labs.com/software/openrcs/) | `openrcs` | 0.11.3 | Universal | Released |
 | [PDF Presenter](https://stoatworks-labs.com/software/pdf-presenter/) | `pdf-presenter` | 1.7.3 | Universal | Field proven |
 | [Peephole](https://stoatworks-labs.com/software/peephole/) | `peephole` | 0.1.2 | Universal | Field proven |
@@ -88,7 +89,7 @@ spctl -a -vvv -t install "$(brew --cache --cask stoatworks-labs/tap/pdf-presente
 | [System Graft](https://stoatworks-labs.com/software/system-graft/) | `system-graft` | 0.2.3 | Universal | Field testing |
 | [WebLinked](https://stoatworks-labs.com/software/weblinked/) | `weblinked` | 1.3.1 | Apple Silicon | Field proven |
 
-27 applications.
+28 applications.
 <!-- casks:end -->
 
 Not everything I publish is a macOS application. The Resolume, Resolve and After
